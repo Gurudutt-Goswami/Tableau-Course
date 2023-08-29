@@ -11,14 +11,14 @@ Tableau is business & analytics software tool that helps people to understand, v
 5) Tableau Reader: free desktop application that you can use to open & interact with data visualisations built in Tableau Desktop.  
 
 ### Tableau Features
-Robust Security
-  1) Provides proper Authentication for user access & data connections.
-  2) Also provide you to integrate with other security protocols like active directory, kerberos etc.
-  3) Practices low level filtering which helps to secure data.
-Collaboration & Sharing
-  1) Just like any other BI tool you can easily share reports/sheets/dashboards created in Tableau with other users via on-premise, cloud, hybrid etc.
-Easy to do Time series & forecasting or drawing trend lines.
-Provides both Live & in memory data connections.
-Facitilates wide range of charts some unique ones are ghantt, motion chart etc.
-Capable to show mobile view as well.
-Wide range of Data sources.
+1) Robust Security
+  a) Provides proper Authentication for user access & data connections.
+  b) Also provide you to integrate with other security protocols like active directory, kerberos etc.
+  c) Practices low level filtering which helps to secure data.
+2) Collaboration & Sharing
+   Just like any other BI tool you can easily share reports/sheets/dashboards created in Tableau with other users via on-premise, cloud, hybrid etc.
+3) Easy to do Time series & forecasting or drawing trend lines.
+4) Provides both Live & in memory data connections.
+5) Facitilates wide range of charts some unique ones are ghantt, motion chart etc.
+6) Capable to show mobile view as well.
+7) Wide range of Data sources.
