@@ -22,3 +22,17 @@ Tableau is business & analytics software tool that helps people to understand, v
 5) Facitilates wide range of charts some unique ones are ghantt, motion chart etc.
 6) Capable to show mobile view as well.
 7) Wide range of Data sources.
+
+### Advantages of Tableau
+1) Remarkable visualisation
+2) Ease of use
+3) High Performance
+4) Mobile friendly
+5) Rich community
+
+### Disadvantages of Tableau
+1) High Cost
+2) Inflexible pricing (pricing is independent of customer requirement)
+3) Poor after sales support
+4) Poor BI capabilities
+5) Poor Version control
