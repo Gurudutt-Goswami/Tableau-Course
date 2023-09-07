@@ -44,6 +44,16 @@ Tableau is business & analytics software tool that helps people to understand, v
 You can extract any report (in .hyper format) by going to Data tab -> Report Name -> Extract Data and now either you can extract everything in one table or to multiple tables & also you can select how to identify new rows by checking increamental refresh & then selecing the column name with which you want to identify them.
 
 
+
+
+
+### How to create calculated fields in Tableau?
+1) Right click on any columan name -> create -> create calculated field
+2) Go to analysis from menu tab -> create calculated field
+3) You can also create from drop down just near the Dimensions section.
+
+
+
 ### Practice Sets
 
 #### Q1: Reviewing profit per state in decending order & also seeing which orders have been returned per state per customer ?
@@ -56,4 +66,27 @@ Steps to perform
 5) Add distinct count of order id (returns) & sum(profit) to columns
 6) sort based on profit
 
+#### Q2: Create a set to show states with 100 or more customers ?
+Sol: Right click on any column name -> Create -> Set -> Give set Name -> go to condition -> By field > Count(Customer Name) >= 100
 
+#### Q3: Create calculated fields to show the average sales per customer?
+Col Name : Avg sales per customer
+Sol: AVG({INCLUDE [Customer Name]:SUM([Sales])})
+
+#### Q4: Calculated fields to show sales goals?
+Col Name : Sales Goal
+Sol: 
+if MIN([States with 100+ Customers])= TRUE
+THEN SUM([Sales]) *1.3
+ELSE [Avg sales per customer]*100
+END
+
+#### Q5: Calculated fields to show emerging & developing states?
+Col Name: Emerging or Developing State
+Sol:
+if COUNTD([Customer Name]) >= 100
+then "Developing State"
+else "Emerging State"
+END
+
+#### Q6: Use Q3, Q4 & Q5 and show avg(sales goal) & sum(sales) & distinct(customer count) per state?
