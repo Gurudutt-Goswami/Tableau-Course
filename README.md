@@ -36,3 +36,24 @@ Tableau is business & analytics software tool that helps people to understand, v
 3) Poor after sales support
 4) Poor BI capabilities
 5) Poor Version control
+
+### Hands on with Tableau
+1) First perform all the necessary joins based on your requirement
+
+### How to extract data sets in Tableau?
+You can extract any report (in .hyper format) by going to Data tab -> Report Name -> Extract Data and now either you can extract everything in one table or to multiple tables & also you can select how to identify new rows by checking increamental refresh & then selecing the column name with which you want to identify them.
+
+
+### Practice Sets
+
+#### Q1: Reviewing profit per state in decending order & also seeing which orders have been returned per state per customer ?
+
+Steps to perform
+1) Import Sample superstore data set 
+2) Inner join between orders & People based on Region
+3) Left join between order & returns based on Order Id
+4) Go to sheet 1 & add state & person in rows 
+5) Add distinct count of order id (returns) & sum(profit) to columns
+6) sort based on profit
+
+
