@@ -104,6 +104,7 @@ Users active directory accounts in a kerberos enabled environment can use single
 You can perform following types of calculations in Tableau
 1) Arithematic Calculation:
 eg) Sales per Item : SUM([Sales])/COUNTD([Product Name])
+Note: You can change the default aggregation for measure by right click -> Default properties -> Aggregation -> select agg function
 2) String Calculation: Contains([Customer Name], 'S*')
 eg) Customer with S : STARTSWITH([Customer Name],"S")
 3) Date Calculation : 
@@ -115,6 +116,10 @@ IF SUM([Sales]) >= 100000
 then 'High' 
 ELSE 'Low'
 END
+
+
+### Tips 
+Quick table calculation, click on the field after adding that too rows & select quick table calculation. Using this you can see Running total(cummulative), difference, percent difference, percent of total, percentile, rank etc.
 
 
 ### Optimizing Performance
