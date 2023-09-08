@@ -56,14 +56,30 @@ You can extract any report (in .hyper format) by going to Data tab -> Report Nam
 
 
 ### Connecting to Tableau Server
-From the starting screen click on Tableau Server & enter your server url -> Connect. Afte that enter credentials & you are done.
+From the starting screen click on Tableau Server & enter your server url -> Connect. After that enter credentials & you are done.
 ![Connect to Tableau Server](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/f660001e-72bf-4cf2-8157-3c08fa738398)
 
 ![Steps to follow once connection has been established to tableau server](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/d8a87d32-e572-4070-a15b-cabfd46f9fc4)
 
 
 ### Joining & Blending
+##### Joins
+To perform any type of join just drag the tables in data source section & then select the type of join along with column names with which you want to perform join.  
+By default tableau performs inner join, though you can do left,right & full outer joins as well.  
+In case sometimes right & full outer join is disabled then what you can do is write your own New Custom SQL but this options generally appears once you established connection from a database that is legacy connection though earlier it was also available for excel files. (Where while importing the excel files you not open it normally but select 'open with legacy connection' to get New Custom SQL option.  
+Joins are particularly useful when almost all the dimensions are coming from the same data source.
+![Joins](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/cf512042-857c-480f-82ed-9311641feb4a)
 
+To read more about how to write custom sql : https://help.tableau.com/current/pro/desktop/en-us/customsql.htm
+##### Blending
+When your data is coming from multiple sources then after pulling those sources in Tableau you can directly use in columns from those different data sources & by default Tableau tags those sources as primary & secondary & just after the secondary source it puts an infinity symbol which basically tells developer to not use columns as linking fields. In this case you will not be able to perform joins as Tableau by default is doing blending your data. This is very useful when you have heterogenous data sources.
+
+
+
+### Connectin Type (Live & Extract)
+Live : Any change in the data source will directly reflect in Tableau sheets.
+Extract : It imports data first into Tableau Data Engine so any change in data source will not directly reflect in sheets but the speed of operation performed on this data will be much faster.
+While selecting extract option you can add filters as well, also you can add incremental refresh based on certain fields. (More or less you can refer this type of connection as offline)
 
 
 
