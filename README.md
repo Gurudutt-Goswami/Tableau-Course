@@ -54,6 +54,22 @@ You can extract any report (in .hyper format) by going to Data tab -> Report Nam
 
 
 
+
+### Connecting to Tableau Server
+From the starting screen click on Tableau Server & enter your server url -> Connect. Afte that enter credentials & you are done.
+![Connect to Tableau Server](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/f660001e-72bf-4cf2-8157-3c08fa738398)
+
+![Steps to follow once connection has been established to tableau server](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/d8a87d32-e572-4070-a15b-cabfd46f9fc4)
+
+
+### Joining & Blending
+
+
+
+
+
+
+
 ### Practice Sets
 
 #### Q1: Reviewing profit per state in decending order & also seeing which orders have been returned per state per customer ?
