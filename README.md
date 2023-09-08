@@ -90,3 +90,15 @@ else "Emerging State"
 END
 
 #### Q6: Use Q3, Q4 & Q5 and show avg(sales goal) & sum(sales) & distinct(customer count) per state?
+Sol: 
+1) Add Agg(sales goal) in columns
+2) Add State in Rows 
+Now you should be able to see Sales goal per state 
+3) Now add customer name in columns & make it distinct
+4) Make it(Customer Name) discrete if its continous as its discreate entity.
+4) Add Sum(sales) in Column
+5) Go to Show me & select bullet graph
+6) Now since only one thing can be in columns you can right click on the x-axis & select swap reference line fields
+Add on
+7) Now put Emerging or Developing State in color & rename the sheet as well to the same.
+8) You can sort based on distinct customer count or sales goal
