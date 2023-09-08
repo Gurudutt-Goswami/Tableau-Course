@@ -83,13 +83,36 @@ When your data is coming from multiple sources then after pulling those sources 
 
 
 ### Connectin Type (Live & Extract)
-Live : Any change in the data source will directly reflect in Tableau sheets.
-Extract : It imports data first into Tableau Data Engine so any change in data source will not directly reflect in sheets but the speed of operation performed on this data will be much faster.
+#### Live : Any change in the data source will directly reflect in Tableau sheets.
+#### Extract : It imports data first into Tableau Data Engine so any change in data source will not directly reflect in sheets but the speed of operation performed on this data will be much faster.
 While selecting extract option you can add filters as well, also you can add incremental refresh based on certain fields. (More or less you can refer this type of connection as offline)
+1) Extracts are subset of data source created & saved locally in your hard drive disk with .tde (tableau data extract) or .hyper extension.
+2) Enable faster data retrival as it eliminate quering data source.
+3) Can you filters & limits to only get focused data.
+4) can be refreshed fully/incrementally to add recent data.
+5) You can extract data even from live connections.
+![extract data](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/b801ee2d-b44d-4cc9-af3f-e8acb6ffe384)
 
 
 
+### Supported Data sources types
+This can be determined by the license purchased. The professional edition supports over 40+ data connections including connections available in personal edition.
+![connections](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/dcc2a819-91f1-411d-9b54-140e54410d66)
 
+### Tableau Authentication
+If kerberos is enabled then you don't need to provide server & other authentication details while publishing workbooks.
+Tableau server supports kerberos based single sign on (SS0).
+Users active directory accounts in a kerberos enabled environment can use single sign on to connect to tableau server from tableau desktop and web browsers.
+![Kerberos](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/42d4cb2c-902b-4ce1-ac79-5dc0f1b2a159)
+![Kerberos](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/106c3cde-18ff-4b1e-a619-3dfe4940b2b0)
+![kerberos setup](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/e065c4e4-102f-4b88-888a-8152d27e59ee)
+
+
+### Optimizing Performance
+![performance](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/eda7ee1c-52ed-492f-8232-833c2bfa8ee8)
+#### Shadow Extracts
+Note: The folder which contains this will only be visible on licensed copy.
+![tableau shadow extracts](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/5617ba05-fbb6-447f-be16-8463f29ba557)
 
 
 ### Practice Sets
