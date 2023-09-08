@@ -102,13 +102,18 @@ Users active directory accounts in a kerberos enabled environment can use single
 3) You can also create from drop down just near the Dimensions section.
 
 You can perform following types of calculations in Tableau
-Arithematic Calculation: Sum[Profit]/Sum[Sales]
-String Calculation: Contains([Customer Name], 'S*')
-Date Calculation : Datediff('day', [order date], [ship date])
-Logical Calculation : 
-if MIN([States with 100+ Customers])= TRUE  
-THEN SUM([Sales]) *1.3  
-ELSE [Avg sales per customer]*100  
+1) Arithematic Calculation:
+eg) Sales per Item : SUM([Sales])/COUNTD([Product Name])
+2) String Calculation: Contains([Customer Name], 'S*')
+eg) Customer with S : STARTSWITH([Customer Name],"S")
+3) Date Calculation : 
+eg) Days to ship : Datediff('day', [order date], [ship date])
+Note : the 'day' should be in lower case else it will throw an error
+4) Logical Calculation :
+eg) sales KPI :
+IF SUM([Sales]) >= 100000
+then 'High' 
+ELSE 'Low'
 END
 
 
