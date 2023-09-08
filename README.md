@@ -44,22 +44,15 @@ Tableau is business & analytics software tool that helps people to understand, v
 You can extract any report (in .hyper format) by going to Data tab -> Report Name -> Extract Data and now either you can extract everything in one table or to multiple tables & also you can select how to identify new rows by checking increamental refresh & then selecing the column name with which you want to identify them.
 
 
-
-
-
-### How to create calculated fields in Tableau?
-1) Right click on any columan name -> create -> create calculated field
-2) Go to analysis from menu tab -> create calculated field
-3) You can also create from drop down just near the Dimensions section.
-
-
-
-
 ### Connecting to Tableau Server
 From the starting screen click on Tableau Server & enter your server url -> Connect. After that enter credentials & you are done.
 ![Connect to Tableau Server](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/f660001e-72bf-4cf2-8157-3c08fa738398)
-
 ![Steps to follow once connection has been established to tableau server](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/d8a87d32-e572-4070-a15b-cabfd46f9fc4)
+
+
+### Supported Data sources types
+This can be determined by the license purchased. The professional edition supports over 40+ data connections including connections available in personal edition.
+![connections](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/dcc2a819-91f1-411d-9b54-140e54410d66)
 
 
 ### Joining & Blending
@@ -78,11 +71,10 @@ When your data is coming from multiple sources then after pulling those sources 
 3) It should be used when you have related data accross multiple data source that you want to analyze together in a single view.
 4) Note if a field name is exactly same in multiple sources then Tableau identifies the common dimension automatically else it requires you to explicitly establish a link between those data sets on common dimension. (Just click on </> available near primary data source)
 ![Blended data](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/ab8f7b26-7c15-4f2c-b84d-9c78ecca329e)
-
 ![difference](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/2b2c53fb-eb6f-4429-9d29-da9455b429ca)
 
 
-### Connectin Type (Live & Extract)
+### Connection Type (Live & Extract)
 #### Live : Any change in the data source will directly reflect in Tableau sheets.
 #### Extract : It imports data first into Tableau Data Engine so any change in data source will not directly reflect in sheets but the speed of operation performed on this data will be much faster.
 While selecting extract option you can add filters as well, also you can add incremental refresh based on certain fields. (More or less you can refer this type of connection as offline)
@@ -95,16 +87,29 @@ While selecting extract option you can add filters as well, also you can add inc
 
 
 
-### Supported Data sources types
-This can be determined by the license purchased. The professional edition supports over 40+ data connections including connections available in personal edition.
-![connections](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/dcc2a819-91f1-411d-9b54-140e54410d66)
-
 ### Tableau Authentication
 If kerberos is enabled then you don't need to provide server & other authentication details while publishing workbooks.
 Tableau server supports kerberos based single sign on (SS0).
 Users active directory accounts in a kerberos enabled environment can use single sign on to connect to tableau server from tableau desktop and web browsers.
 ![Kerberos](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/42d4cb2c-902b-4ce1-ac79-5dc0f1b2a159)
 ![kerberos setup](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/e065c4e4-102f-4b88-888a-8152d27e59ee)
+
+
+
+### How to create calculated fields in Tableau?
+1) Right click on any columan name -> create -> create calculated field
+2) Go to analysis from menu tab -> create calculated field
+3) You can also create from drop down just near the Dimensions section.
+
+You can perform following types of calculations in Tableau
+Arithematic Calculation: Sum[Profit]/Sum[Sales]
+String Calculation: Contains([Customer Name], 'S*')
+Date Calculation : Datediff('day', [order date], [ship date])
+Logical Calculation : 
+if MIN([States with 100+ Customers])= TRUE  
+THEN SUM([Sales]) *1.3  
+ELSE [Avg sales per customer]*100  
+END
 
 
 ### Optimizing Performance
