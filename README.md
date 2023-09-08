@@ -104,7 +104,6 @@ If kerberos is enabled then you don't need to provide server & other authenticat
 Tableau server supports kerberos based single sign on (SS0).
 Users active directory accounts in a kerberos enabled environment can use single sign on to connect to tableau server from tableau desktop and web browsers.
 ![Kerberos](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/42d4cb2c-902b-4ce1-ac79-5dc0f1b2a159)
-![Kerberos](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/106c3cde-18ff-4b1e-a619-3dfe4940b2b0)
 ![kerberos setup](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/e065c4e4-102f-4b88-888a-8152d27e59ee)
 
 
