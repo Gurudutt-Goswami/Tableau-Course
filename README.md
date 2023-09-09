@@ -118,6 +118,29 @@ ELSE 'Low'
 END
 
 
+### Charts 
+#### Box Plots
+![box_description](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/cced1c25-2624-4ed6-a96b-7844b088b4b7)
+
+#### Combination Charts
+Combined Axes are view which uses measures sharing single axis so that all the marks are displayed in a single pane. It uses 2 or more measures that share a single axes.
+Combination charts are views that use multiple mark types in the same sheet. It can be customised to show the distinct mark type for each distinct measures which can be displayed in individual axis, blended axis or dual axis.
+![combination chart](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/ee2f39c1-c63f-40c0-a73e-6f59769cffc7)
+
+#### Map Plots
+Tableau automatically assigns geographical roles to fields with common geographical names such as country,state, city & so on. It also automatically adds the lattitude & longitude to the fields added to rows & columns.
+
+#### Scatter Plots
+Used to visualise relationship between two numeric fields. Its uses one measure in column & atleast one measure in row.
+![matrix scatter plot](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/b9c8e7ca-dc09-4f70-9e8b-7a3f38bb28d1)
+
+
+### Formatting and Annotations
+In the data source you can see a globe symbol for the column which can be used to represent in maps also you can set what it represent that country,state , city etc. or you can keep it by default to let Tableau decide.
+To format anything just go to format menu & click on a specific property which you want to modify, now it will add a seperate panel in the left hand side to adjust any property for sheets,row & columns.
+
+
+
 ### Tips 
 Quick table calculation, click on the field after adding that too rows & select quick table calculation. Using this you can see Running total(cummulative), difference, percent difference, percent of total, percentile, rank etc.
 
@@ -177,3 +200,24 @@ Now you should be able to see Sales goal per state
 Add on
 7) Now put Emerging or Developing State in color & rename the sheet as well to the same.
 8) You can sort based on distinct customer count or sales goal
+
+
+#### Business Scenario
+![scenario](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/df4efa9e-0ff8-463e-9cbb-369f44cae9e6)
+
+Sol: 
+1) Line chart - sales by order- yearly level
+2) Drill quarterly
+3) create a table calculation - difference
+
+![scenario sol](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/3c27a663-8a41-4105-9fd3-229e88cab85c)
+
+
+#### Business Scenario 2
+![scenario 2](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/e4766aa9-dc9c-4296-b0c0-ddea1d1493db)
+Sol:
+1) Sales by state
+2) Blended Axis - Profit and Sales
+3) Filter - Phones
+4) Scatter plot
+![scenario 2 sol](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/b4c2b6ce-5bfb-4a15-8c64-1f3b83a62d7f)
