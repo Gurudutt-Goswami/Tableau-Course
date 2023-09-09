@@ -135,11 +135,17 @@ Used to visualise relationship between two numeric fields. Its uses one measure 
 ![matrix scatter plot](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/b9c8e7ca-dc09-4f70-9e8b-7a3f38bb28d1)
 
 
-### Formatting and Annotations
-In the data source you can see a globe symbol for the column which can be used to represent in maps also you can set what it represent that country,state , city etc. or you can keep it by default to let Tableau decide.
-To format anything just go to format menu & click on a specific property which you want to modify, now it will add a seperate panel in the left hand side to adjust any property for sheets,row & columns.
+### Formatting
+In the data source you can see a globe symbol for the column which can be used to represent in maps, also you can set what it represent that is country,state , city etc. or you can keep it by default to let Tableau decide. To format anything (Font, alignment, shading, border, lines) just go to format menu & click on a specific property which you want to modify, now it will add a seperate panel in the left hand side to adjust any property for sheets, rows & columns.
 
-
+### Filtering
+Condition that can be applied to dimensions, measures or fields to narrow down the data displayed in a view.
+A) After adding a field to the filter section you get 4 options:
+1) general(specific value(/s) to include/exclude
+2) Wildcard (contains,starts with, endswith, exactly matches etc)
+3) Condition (A logical condition mostly >,<,>=,<= etc.)
+4) Top (top/bottom n rows by any specific field condition)
+![Filters](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/e45697f4-7284-464d-a956-cc27b19a1bc3)
 
 ### Tips 
 Quick table calculation, click on the field after adding that too rows & select quick table calculation. Using this you can see Running total(cummulative), difference, percent difference, percent of total, percentile, rank etc.
