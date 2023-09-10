@@ -65,11 +65,20 @@ Joins are particularly useful when almost all the dimensions are coming from the
 
 To read more about how to write custom sql : https://help.tableau.com/current/pro/desktop/en-us/customsql.htm
 ##### Blending
-When your data is coming from multiple sources then after pulling those sources in Tableau you can directly use in columns from those different data sources & by default Tableau tags those sources as primary & secondary & just after the secondary source it puts an infinity symbol which basically tells developer to not use columns as linking fields. In this case you will not be able to perform joins as Tableau by default is doing blending your data. This is very useful when you have heterogenous data sources.
-1) It requires a common dimension to establish a link between data sources.
-2) It does not create row level joins.
-3) It should be used when you have related data accross multiple data source that you want to analyze together in a single view.
-4) Note if a field name is exactly same in multiple sources then Tableau identifies the common dimension automatically else it requires you to explicitly establish a link between those data sets on common dimension. (Just click on </> available near primary data source)
+1) Blending is a method for combining data from multiple sources. It brings additional information from secondary source & display it with primary source direcly in the view.
+2) Blends unlike joins never truly combines data, instead it queries each data source independently the results are then aggregated to appropriate level where they presented visually together in the view.
+3) When your data is coming from multiple sources then after pulling those sources in Tableau you can directly use in columns from those different data sources & by default Tableau tags those sources as primary & secondary & just after the secondary source it puts an infinity symbol which basically tells developer to not use columns as linking fields. In this case you will not be able to perform joins as Tableau by default is doing blending your data. This is very useful when you have heterogenous data sources.
+4) It requires a common dimension to establish a link between data sources.
+5) It does not create row level joins.
+6) It should be used when you have related data accross multiple data source that you want to analyze together in a single view.
+7) Note if a field name is exactly same in multiple sources then Tableau identifies the common dimension automatically else it requires you to explicitly establish a link between those data sets on common dimension. (Just click on </> available near primary data source)
+
+Example: Lets suppose we have a car & a bike data. In car data we have a column called Region & in bike we have a column called Zone. Apart from these two columns we have many other common columns. After bringing these two data sources in Tableau we go to Data -> Edit Blend Relationship. Tableau by default will show certain columns which can be matched but since we want to explicitly define blend relationship we can add Region & zone as matched column for blend. After this if we use fields from car data then it will treat car data as primary source & vice versa. Now suppose we want to see Sum of annual sales of both car & bike in a single chart then we need to make a blend calculated field, something like below which we can use in our chart. (Note: data source name has been added for car, also we need ZN to replace null values with 0)
+
+![data blend calculation](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/5293258d-4ad3-455a-8d5f-0655c29bf1a9)
+
+
+
 ![Blended data](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/ab8f7b26-7c15-4f2c-b84d-9c78ecca329e)
 ![difference](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/2b2c53fb-eb6f-4429-9d29-da9455b429ca)
 
