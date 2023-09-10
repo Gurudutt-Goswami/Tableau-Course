@@ -81,6 +81,7 @@ Example: Lets suppose we have a car & a bike data. In car data we have a column 
 
 ![Blended data](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/ab8f7b26-7c15-4f2c-b84d-9c78ecca329e)
 ![difference](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/2b2c53fb-eb6f-4429-9d29-da9455b429ca)
+![difference new](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/a8c827b4-4afd-4d24-ab21-44b484f381c0)
 
 
 ### Connection Type (Live & Extract)
