@@ -214,6 +214,18 @@ A hierarchy is a grouping of related dimensions depicting direct parent-child re
 To create a hierarchy just drag a field on to another & name it according. In case you want to add a new field into just drag that field to a specific level with in a hierarchy & you are done.
 ![hierarchy](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/b9d768ad-eb9a-400e-b8e8-a2691755aafd)
 
+![date hierarchy](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/7e01f7cc-f887-46b4-94c8-0aae820bea0b)
+
+![scenario 4](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/5649fbb8-c4a2-4363-b524-ac341fcc1358)
+You can also add filters for specific quaters & also quick table calculation like running total to see actual growth year by year
+![scenario 4 sol](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/08545209-86c5-4a85-898f-4012b84b4b8d)
+Pivotting date parts to view it in better way
+![scenario 4 better sol](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/9f5f7722-c31d-4c95-8f75-9608e4b4ba87)
+
+### Parameters
+1) Top N parameters: Just add the filter & while selecting top n select create a parameter & then you can select list with certain values & how those values should appears & after creating you can show parameter in your sheet.
+![top n parameters](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/2893675d-c07a-471f-a7b0-d2ff85bc0ba4)
+
 
 ### Grand Total & Sub Totals
 1) Totals facitilates the aggregation of data in a View.
