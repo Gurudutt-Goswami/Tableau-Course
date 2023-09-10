@@ -140,12 +140,65 @@ In the data source you can see a globe symbol for the column which can be used t
 
 ### Filtering
 Condition that can be applied to dimensions, measures or fields to narrow down the data displayed in a view.
-A) After adding a field to the filter section you get 4 options:
+A) After adding a field to the filter section you get 4 options: (Dimension Level)
 1) general(specific value(/s) to include/exclude
 2) Wildcard (contains,starts with, endswith, exactly matches etc)
 3) Condition (A logical condition mostly >,<,>=,<= etc.)
 4) Top (top/bottom n rows by any specific field condition)
-![Filters](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/e45697f4-7284-464d-a956-cc27b19a1bc3)
+
+#### When filtering on a measure, you can either select filter row level data or an aggregated value of data.
+![measure level filter](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/c09f1625-9e91-470a-a526-b34dd8cc6bd4)
+
+#### Filter Types 
+![Filter Options](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/0e8ea0fd-e10c-4ffc-9f3d-ad2e07ee32df)
+
+
+#### How to remove null values?
+Add that measure into the filter section & then select the aggregation you want to perform after that select the type of filter 
+1) Range of values
+2) at least
+3) at most
+4) special (here you can select to remove the null values)
+
+#### How to last month/weeks etc data?
+You can add the date field into the filter section & then select the relative date, after that you will 5 options 
+1) Relative dates (here you can select the period that x month/week)
+2) range of dates
+3) starting date
+4) ending date
+5) special
+![Filters details](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/585543c8-d159-47e8-a5fb-baa63dfdd5e7)
+
+
+### Sorting of Data
+![sorting](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/9d90c8c4-69ff-4895-aec4-973bf1588f04)
+
+
+### Combined Fields
+These are used to create cross product of members from different dimensions. The view will include all combinations of each members of the dimensions.
+To create this select 2 fields from different dimensions & right click -> create -> combined fields.
+![combined fields](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/cbd940f6-7f1a-4a7a-9e4a-9ee86d0e6104)
+
+### Groups & Defining Aliases
+![groups](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/e2ba1c46-8788-4686-bae4-110efb282381)
+![aliases](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/3c4ea906-4c93-4e7a-b88a-a9b9a4480e1e)
+![aliases characterstics](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/1aae7ddd-fc7a-4fff-9f63-73d586d12111)
+
+### Sets & computed sets
+1) Sets are custom fields that define a subset of dimension members.
+2) It can be created for specific dimension members in the view or it can be based on a condition.
+3) Computed sets are dynamic as the number of members in the set can vary at run time based on the condition.
+4) You can also combine two sets to make a new set.
+
+![sets](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/efeb7801-62b0-4299-8e10-34d2b557edcf)
+![combined sets](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/82cc7180-35d9-4cfa-970c-e65dfe66647e)
+
+
+### Hierarchy
+A hierarchy is a grouping of related dimensions depicting direct parent-child relationships between them.
+![hierarchy](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/b9d768ad-eb9a-400e-b8e8-a2691755aafd)
+
+
 
 ### Tips 
 Quick table calculation, click on the field after adding that too rows & select quick table calculation. Using this you can see Running total(cummulative), difference, percent difference, percent of total, percentile, rank etc.
