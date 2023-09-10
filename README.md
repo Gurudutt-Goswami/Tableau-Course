@@ -203,6 +203,47 @@ To create a hierarchy just drag a field on to another & name it according. In ca
 ### Grand Total & Sub Totals
 1) Totals facitilates the aggregation of data in a View.
 2) It can only be applied to gied type visualisations.
+3) Sub totals & grand totals are computed as a seperate calculation of the measure at a coarser level of granularity.
+4) To apply this go to the analytics panel & drag totals to the visualisations.
+
+
+### Bins
+1) Custom bandings of values of a measure based on a specific size.
+2) Can be thought of as bucket of values.
+3) Two Types : Fixed sized & variable sized.
+4) Note : To create variable sized bins you need to first create a calculated field out of those columns & then you can use this newly generated column to create bins of your own sized.
+#### Fixed sized Bins
+![bins](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/4f851bcb-8dd7-4202-8ff0-d492341b8e0d)
+#### Variable sized Bins
+Note in the following there are 3 bins of different sizes 
+![variable sized bins](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/ba8c63e5-cb45-4133-8ff0-bc0b5ca50ec5)
+
+
+### Mapping
+Difference between symbol map & normal map is that in symbol map one can use 0 to 2 measure while in normal map one can only use 0 to 1 measure.
+![scenario 3](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/314416e2-965c-416d-bb43-58af2897b323)
+Note : Before proceeding if your data has any such values which Tableau doesn't able to understand then it will throw an error at the bottom right & on click you will see a pop up to correct the same.
+1) Double click on state this will generate longitude & lattitude.
+2) Put sales in color by. (This means darker the color higher the sales & vice versa)
+3) Put profit into the size. (This means larger the size greater the profit & vice versa)
+4) Show the labels.
+
+In case tableau is not able to detect geographic roles you can do following
+Note: In case you are providing your custom geocoding then keep in mind that the longitude & lattitude should be real numbers & that up to 1 decimal places at least.
+![map problem](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/73c0c12d-ef86-488f-82a5-bca721e77465)
+
+Custom geocoding
+![german postal code](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/1f10e855-d670-4c0b-aff3-2e87307a8ac3)
+
+
+you can also explicitly tell tableau geographical role if you think its not correct by default
+![geographical roles change](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/9f74ef53-d885-4259-ad19-3090097583e4)
+
+
+
+
+### Changing aggregation function
+![changing aggregation function](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/c0a3eb85-b30f-4c52-a2fd-08b8a55ad616)
 
 
 ### Tips 
