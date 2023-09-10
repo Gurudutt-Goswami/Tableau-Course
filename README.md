@@ -77,11 +77,16 @@ Example: Lets suppose we have a car & a bike data. In car data we have a column 
 
 ![data blend calculation](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/5293258d-4ad3-455a-8d5f-0655c29bf1a9)
 
+### Blending Limitations
+![blending limitations](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/96ddd501-af54-468f-ad9c-266071564345)
+
 
 
 ![Blended data](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/ab8f7b26-7c15-4f2c-b84d-9c78ecca329e)
 ![difference](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/2b2c53fb-eb6f-4429-9d29-da9455b429ca)
 ![difference new](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/a8c827b4-4afd-4d24-ab21-44b484f381c0)
+
+
 
 
 ### Connection Type (Live & Extract)
