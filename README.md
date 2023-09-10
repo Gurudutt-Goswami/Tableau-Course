@@ -196,8 +196,13 @@ To create this select 2 fields from different dimensions & right click -> create
 
 ### Hierarchy
 A hierarchy is a grouping of related dimensions depicting direct parent-child relationships between them.
+To create a hierarchy just drag a field on to another & name it according. In case you want to add a new field into just drag that field to a specific level with in a hierarchy & you are done.
 ![hierarchy](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/b9d768ad-eb9a-400e-b8e8-a2691755aafd)
 
+
+### Grand Total & Sub Totals
+1) Totals facitilates the aggregation of data in a View.
+2) It can only be applied to gied type visualisations.
 
 
 ### Tips 
