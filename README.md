@@ -274,6 +274,41 @@ Once its created you can use this calculated values in your visualisations.
 Directly use calculated fields which we have created in 3) & 4) & put them in columns & rows respectively. Now you visualisation should change according to the parameters selection.
 
 
+
+### Difference between Parameters & Filters
+![difference parameter   filters](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/9e3a897a-37d2-445a-b1a2-6acdba797e70)
+
+
+
+### LOD (Level of Details) Expressions
+LOD expressions are employed to execute complex queries at data source level instead of bringing them to tableau interface.
+1) Row level LOD expressions (expressions referencing unaggregated data source columns are computed for each row in the underlying table)
+2) View level LOD expressions (expressions referencing aggregated data source columns are computed at the dimensionality defined by the dimensions in the view)
+```<Dimension Declaration> : <aggregate expression>```
+Types of LOD expressions
+1) Include (Row level)
+```
+a) {INCLUDE [Customer ID] : SUM([Sales])} 
+b) Avg({INCLUDE [State] : SUM([Sales])}) => Sum of sales per state
+```
+2) Exclude (View level)
+```{EXCLUDE [Region] : sum([Sales])}```
+3) Fixed
+```{FIXED [Region] : SUM([Sales])}```
+
+
+### Limitations of LOD Expressions in Tableau 
+1) Behave unreliable view when floating values are involved.
+2) LOD expression will not be shown in data source.
+3) With data blending, the linking field from the primary data source must be in the view before you can use a LOD expression from the secondary data source.
+
+### Difference Tables Vs LOD Expressions
+
+
+
+
+
+
 ### Reference Lines
 1) Create a date parameter first with date data type.
 2) Now go to analytics tabs & drag reference lines to the visualisation section & drop it on table.
