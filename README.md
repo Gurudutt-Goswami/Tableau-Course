@@ -226,6 +226,60 @@ Pivotting date parts to view it in better way
 1) Top N parameters: Just add the filter & while selecting top n select create a parameter & then you can select list with certain values & how those values should appears & after creating you can show parameter in your sheet.
 ![top n parameters](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/2893675d-c07a-471f-a7b0-d2ff85bc0ba4)
 
+2) Date Field Parameter : Create a string parameter which will contains the string values (year,quarter,month,week & day) & based on this we will then create calculated field which will take this parameter values.
+![date field parameter](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/937c978f-fa41-4eb7-bb47-462bcdbbc202)
+After creating this create following calculated field
+Note that `2 Date Field Parameter` is the name of the date parameter
+```
+Case [2 Date Field Parameter]
+when "Year" THEN STR(YEAR([Order Date]))
+when "Quarter" THEN STR(YEAR([Order Date])) + "/Q" + DATENAME('quarter',[Order Date])
+when "Month" THEN DATENAME('month',[Order Date]) + "" + STR(YEAR([Order Date]))
+when "Week" THEN "Week" + STR(DATEPART('week',[Order Date]))
+when "Day" THEN STR(DATE([Order Date]))
+END
+```
+Once its created you can use this calculated values in your visualisations.
+
+3) Dynamic Dimension Parameter
+Create a string parameter which will contain (Category, ship mode & Segment) & based on this we will then create a calculate field which will take this parameter values as case conditions.
+![dynamic dimensions parameter](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/aaa7d115-b47b-4ad3-864b-14794d273011)
+After this create following calculated field
+Note that `3 Dynamic Dimensions Parameter` is the name dynamic parameter.
+```
+CASE [3 Dynamic Dimensions Parameter]
+when "Category" then [Category]
+when "Ship Mode" then [Ship Mode]
+when "Segment" then [Segment]
+END
+```
+Once its created you can use this calculated values in your visualisations.
+
+4) Dynamic Measures Parameter
+Create a string parameter which will contain (Sales, profit & Quantity) & based on this we will then create a calculated field which will take this parameter values as case conditions.
+![dynamic measure parameter](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/1831b675-3515-4388-bbcd-cd75b66252b3)
+After this create following calculated field
+Note that `4 Dynamic Measure Parameter` is the name dynamic parameter.
+```
+CASE [4 Dynamic Measure Parameter]
+when "Sales" then [Sales]
+when "Profit" then [Profit]
+When "Quantity" then [Quantity]
+END
+```
+Once its created you can use this calculated values in your visualisations.
+
+
+5) Both Dynamic Dimensions & Dyanamic Measures
+Directly use calculated fields which we have created in 3) & 4) & put them in columns & rows respectively. Now you visualisation should change according to the parameters selection.
+
+
+### Reference Lines
+1) Create a date parameter first with date data type.
+2) Now go to analytics tabs & drag reference lines to the visualisation section & drop it on table.
+3) Now here you can use that date parameter which you create in step 1 & can also modify the line type & color.
+![reference line](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/a0faef12-329c-4696-9fcc-fb9fd4c1d74e)
+
 
 ### Grand Total & Sub Totals
 1) Totals facitilates the aggregation of data in a View.
