@@ -458,8 +458,8 @@ Sol:
 Note: We can also change the data type of any field in the data source
 
 #### What are dimensions & Measures?
-Dimensions are Qualitative fields/Categorical Fields
-Measure are numberical/Quantitative fields.
+1) Dimensions are Qualitative fields/Categorical Fields
+2) Measure are numberical/Quantitative fields.  
 ![Dimensions](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/a3addd57-7528-4d3a-b02b-2ee4f7f2797f) | ![measures](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/3524d9a4-ae03-4f75-8111-567114389619)
 
 
