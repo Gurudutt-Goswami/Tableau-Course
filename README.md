@@ -448,7 +448,7 @@ Sol:
 
 ### Interview Questions
 
-#### Data types supported in tableau?
+#### Q. Data types supported in tableau?
 1) String (Text Values)
 2) Date
 3) Date & Time
@@ -457,9 +457,81 @@ Sol:
 6) Geographical Values (Used with Maps)
 Note: We can also change the data type of any field in the data source
 
-#### What are dimensions & Measures?
+#### Q. What are dimensions & Measures?
 1) Dimensions are Qualitative fields/Categorical Fields
 2) Measure are numberical/Quantitative fields.  
 ![Dimensions](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/a3addd57-7528-4d3a-b02b-2ee4f7f2797f) | ![measures](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/3524d9a4-ae03-4f75-8111-567114389619)
+Note : Tableau automatically detects data type for each column & also by default aggregation type for measure is Sum but you can change it.
+
+#### Q. Discrete(Blue) & Continuos(Green)? 
+1) Discrete : Observations are recorded on specific date.
+2) Continous : Observations are recorded for all dates.
+Note: Both dimensions & measures can be discrete or continous.
+Example:
+Discrete Dimension : Product Name
+Continous Dimension : Year(Order Date)
+Discrete Measures : Sum(Profit)
+![sum of profit](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/9266e78a-59c3-4d3d-a05c-d67deb00bed6)
+Continous Measures : Sum(Profit)
+
+#### Q. Filter & their types?
+Filters are way to restrict data that allows you to only see the data you want to see.
+![Order of operations](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/2c041bd0-665d-4fe5-ac9c-aa463e2f240f)
+
+#### Q. There are 3 customer segments in superstore data set. What % of profits is associated with the corporate segment ?
+1) Add segment in rows.
+2) Double click on profits.
+3) add table calculation to Percent of total.
+
+#### Q. Different join in tableau?
+Sol : Inner, left, right & full outer.
+Note : To get product of two fields select those field right click & create computed fields. This will contain product of those two column. (mxn rows).
+You can also do union which is basically to add rows of 2 or more tables into one.
+
+####. Q. Joining & Blending?
+Joining : Combining the data between 2 or more tables or sheets within the same data source is data joining.  
+Blending : Combining data from 2 or more different/heterogenous sources.  
+Note: In blending we actually dont combine data but query different sources independently & the field the visual uses define the primary & secondary sources.
+
+#### Q. Live & Extract?
+1) live connection offer convenience of real time updates, with any changes in the data source reflected in tableau.
+2) Extract are snapshots of data optimized for aggregation & loaded into system memory to be quickly recalled for visulization.
+Note: In Tableau server you can add schedule to refresh extract data to be updated.
+
+#### Q. Calculated Field? (=#)
+You can create new field by adding certains conditions & functions on your existing fields that is called calculated fields.
+
+#### Q. How to display top 5 & bottom 5 in same view?
+Create two sets, one for top 5 & other for bottom 5 & then combine those two sets, then use this set in filter condition.
+![Combined sets new](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/9ab02936-afba-4a5c-8435-3c7517449135)
+
+#### Q. Groups & Sets?
+1) Group : 1 dimensional, used to create High level category.
+2) Set : Multi dimensional & can contain conditions as well.
+Note : We can't use group in calculated fields but can use sets.
+![grouping](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/e2a20828-ed64-4897-be27-465574925438)
+
+#### Q. Parameter? Example? ( ~Document Properties in Spotfire)
+Parameters are dynamic values that can replace constant values in calculations, filters & reference lines.
+Lets suppose we want to give an option to user to select top & bottom 5,10,15 & 20 customers based on profits, then we can make a parameter with range values values (PFB the image) from 5 to 20 with a step size of 5 & then can use this parameter in those two sets which represents top & bottom n customers.
+![paramter new](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/6ea535ca-754b-4e54-924f-b6b3da14b209)
+
+#### Q. Tree Map & Heat Map?
+1) Heat Map : Used to compare categories using color & size. For example extreme high/low the profit darker the color & vice versa.
+2) Tree Map : Used to represent hierarchiral data. The space in view is divided into rectangles that are sized & ordered by a measure.
+Note: Main difference is the hierarchy.
+![heat map](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/faabb4db-bf39-400d-9f7e-c1432fbd01c1) | 
+![Tree Map](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/e735dbc5-2331-4fbc-808f-8eef6cc0bf23)
 
 
+#### Q. .twbx & .twb?
+1) .twbx : Tableau packages workbook, contains all the information necessary to work in tableau along with the data source.
+2) .twb : xml document, contains only the instructions to interact with the data source, thus data source needs to be attached seperately.
+
+#### Q. worksheet, dashboard, story & workbook?
+![all](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/d744387f-4ab7-4cb4-9767-bd27b58dc1c8)
+Note: Story is more or less a ppt kind off mode where we want to convey something in a sequential & more meaningful manner, basically it directs the person on focused area.
+Points to remember: 
+1) We can only access dimensions, measures & custom fields in a worksheet.
+2) From dashboard we can access sheets but not dimensions & measures directly.
+3) From story we can access the dashboard & worksheet but not the dimensions & measures directly.
