@@ -535,3 +535,24 @@ Points to remember:
 1) We can only access dimensions, measures & custom fields in a worksheet.
 2) From dashboard we can access sheets but not dimensions & measures directly.
 3) From story we can access the dashboard & worksheet but not the dimensions & measures directly.
+
+
+#### Q. Blended Axis?
+Blended Axis is used to blend two measures to share an axis when they have same scale.
+![blended axis](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/4c258aa0-ffd6-417a-86ee-5590e3b53586)
+
+#### Q. Dual Axis? How to Create?
+Dual axis allows you to compare measures with different scales.
+Note: You can convert dual axis to blend axis by right click -> synchronise axis.
+![dual axis](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/4f54d7ef-77a6-449a-ba9e-ad1199465dcd)
+
+#### Q. Difference dual & blend axis?
+dual axis has two marks cards where as blend has only one & ofcourse dual axis has two axis where as blend has only one. Dual axis is particularly useful when we have measures of different scales.
+Also in dual axis we change chart types for each measure which is not the case with the blend axis.
+
+#### Q. Left(3,'Tableau')?
+It will throw syntax error. Left('Tableau',3) => Tab
+
+#### Q. Null Values & other special values?
+Filter values -> Special values -> Non null values. You can do this manually or just click on the right bottom where you see null values & click on filter values. In case you think for these values the values should be 0 then you can select the 2nd option.
+![null values](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/9021b9a3-7e6a-49dd-8202-4c8c052bee83)
