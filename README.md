@@ -564,3 +564,63 @@ Columns -> sub-category rows -> Sum(sales) filter-> ship mode(first class) sol: 
 
 #### Q. Customer name with lowest profit & what's his/her profit ratio?
 Make a new calculated field ```Profit Ratio -> Sum(Profit)/Sum(Sales)``` & plot Sum(sales) by customer name & sort it by decending order & put this profit ratio on labels.
+
+
+#### Q. Rank, Rank_Modified, Rank_Dense, Rank_Unique?
+Note: All Rank function by default works descending
+Also Rank_Unique though gives unique ranking but prefers according to ascii.
+![all ranks](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/c963604c-472f-46c7-84bd-16614debc145)
+
+
+#### Q. Embed webpage in dashboard?
+1) First double click on country & filter it by US.
+2) Add sum of sales in color by & show sum(sales) & state in labels.
+3) After this make a dashboard & add this map sheet along with a webpage from object section.
+4) Now go to dashboard -> action -> add action -> go to url -> add ```https://en.wikipedia.org/wiki/``` url & at last apend state to it ```<state>``` & select ```select```.
+5) Now whichever state from above chart you will click you will be able to its wikipedia page.
+![dynamic web page](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/2a45be38-4041-47cd-b0e8-b2d1014657c2)
+
+
+### Q. Design a view to show region wise profit & sales?
+This question demands how much efficient you can portray these details.
+1) Double click on states since Region is not a map type
+2) Convert chart type from automatic to Map
+3) Drop Region to color by
+4) Drop state, sum(sales), sum(profit) on labels
+![detailed](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/201461a8-6316-47eb-b089-d6091c353944)
+
+
+### Q. Optimize performance of a dashboard?
+![performance new](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/7005ea28-9f2c-4e68-9fc2-f5214be2b8b0)
+
+
+### Q. Viz according to scenario?
+![type of viz](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/00e995f8-702c-4e0d-b916-97809e939a60)
+
+
+
+### Q. What will you do if some countries/province (any grohraphical entity) is missing & displaying a null when you use map view?
+![map issue solution](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/f365c688-ff7e-449d-b1d2-e594110b1c05)
+![options map issue solution](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/69ada025-1062-4c83-8a05-7745e0fefa43)
+
+
+### Q. LOD expressions?
+Level of details expression are used to Run complex queries involving many dimensions at the source level instead of bringing them to tableau interface.
+1) Include (includes dimension & view level dimensions)
+2) Exclude (excludes that dimension)
+3) Fixed (only include the mentioned dimension)
+![exclude LOD](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/75f3ac75-85f3-40ca-9bb7-89eab1f30eae)
+
+### Q. Compute daily profit using LOD?
+LOD 1 
+![LOD Exp 1](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/394cf8a3-e3c2-4e1f-9368-ee6de4810235)
+LOD 2
+![LOD Exp 2](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/27d91b8c-4cc9-4d7d-9f0e-95cf4d3035a1)
+![profits by LOD](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/c5dbf11a-93df-4214-8433-ed704dddf876)
+
+
+
+### Q. How can you schedule a workbook after publishing it?
+![schedule](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/1458874b-873e-487d-b541-d5bd42fef167)
+![schedule 2](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/c9e1e90a-e4d1-45b7-b679-24bbb743d997)
+
