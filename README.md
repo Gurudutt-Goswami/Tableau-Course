@@ -556,3 +556,11 @@ It will throw syntax error. Left('Tableau',3) => Tab
 #### Q. Null Values & other special values?
 Filter values -> Special values -> Non null values. You can do this manually or just click on the right bottom where you see null values & click on filter values. In case you think for these values the values should be 0 then you can select the 2nd option.
 ![null values](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/9021b9a3-7e6a-49dd-8202-4c8c052bee83)
+
+
+#### Q. 2nd Top product by subcategory by sales for first class ship mode?
+Columns -> sub-category rows -> Sum(sales) filter-> ship mode(first class) sol: chairs
+![sol](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/ac48a080-4162-4091-b69d-6e119fbbc339)
+
+#### Q. Customer name with lowest profit & what's his/her profit ratio?
+Make a new calculated field ```Profit Ratio -> Sum(Profit)/Sum(Sales)``` & plot Sum(sales) by customer name & sort it by decending order & put this profit ratio on labels.
