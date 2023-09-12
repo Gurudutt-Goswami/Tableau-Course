@@ -442,3 +442,24 @@ Sol:
 3) Filter - Phones
 4) Scatter plot
 ![scenario 2 sol](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/b4c2b6ce-5bfb-4a15-8c64-1f3b83a62d7f)
+
+
+
+
+### Interview Questions
+
+#### Data types supported in tableau?
+1) String (Text Values)
+2) Date
+3) Date & Time
+4) Numerical/float
+5) Boolean Values (True/False)
+6) Geographical Values (Used with Maps)
+Note: We can also change the data type of any field in the data source
+
+#### What are dimensions & Measures?
+Dimensions are Qualitative fields/Categorical Fields
+Measure are numberical/Quantitative fields.
+![Dimensions](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/a3addd57-7528-4d3a-b02b-2ee4f7f2797f) | ![measures](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/3524d9a4-ae03-4f75-8111-567114389619)
+
+
