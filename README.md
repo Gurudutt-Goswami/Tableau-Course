@@ -27,7 +27,7 @@
 24) [Practice-Sets](#Practice-Sets), [Scenarios](#Scenarios), [Interview-Questions](#Interview-Questions)
 
 
-### What is Tableau ?
+### What is Tableau
 Tableau is business & analytics software tool that helps people to understand, visualise & make data driven decisions in real time with extreme agility & accuracy.In simple words to extract information from a huge data sets we use tableau which in turn write SQL queries by itself based on visualisations selected by developer & make it interative to give meaningful insights.
 
 ### Versions of Tableau 
@@ -64,7 +64,7 @@ Tableau is business & analytics software tool that helps people to understand, v
 4) Poor BI capabilities
 5) Poor Version control
 
-### How to extract data sets in Tableau?
+### How to extract data sets in Tableau
 You can extract any report (in .hyper format) by going to Data tab -> Report Name -> Extract Data and now either you can extract everything in one table or to multiple tables & also you can select how to identify new rows by checking increamental refresh & then selecing the column name with which you want to identify them.
 
 
@@ -141,7 +141,7 @@ Users active directory accounts in a kerberos enabled environment can use single
 
 
 
-### How to create calculated fields in Tableau?
+### How to create calculated fields in Tableau
 1) Right click on any columan name -> create -> create calculated field
 2) Go to analysis from menu tab -> create calculated field
 3) You can also create from drop down just near the Dimensions section.
@@ -200,14 +200,14 @@ A) After adding a field to the filter section you get 4 options: (Dimension Leve
 ![17 Filter Options](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/8c7db441-0548-491f-b219-dcd09e4c75e7)
 
 
-#### How to remove null values?
+#### How to remove null values
 Add that measure into the filter section & then select the aggregation you want to perform after that select the type of filter 
 1) Range of values
 2) at least
 3) at most
 4) special (here you can select to remove the null values)
 
-#### How to last month/weeks etc data?
+#### How to last month/weeks etc data
 You can add the date field into the filter section & then select the relative date, after that you will 5 options 
 1) Relative dates (here you can select the period that x month/week)
 2) range of dates
