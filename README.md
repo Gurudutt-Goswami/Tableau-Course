@@ -8,19 +8,19 @@
 5) [Supported Data sources types](#Supported-Data-sources-types)
 6) [Joining & Blending](#Joining-n-Blending)
 7) [Blending Limitations](#Blending-Limitations)
-8) [Connection Type (Live & Extract)](#Connection-Type-(Live-&-Extract))
+8) [Connection Type (Live & Extract)](#Connection-Type-(Live-n-Extract))
 9) [Tableau Authentication](#Tableau-Authentication)
 10) [How to create calculated fields in Tableau](#How-to-create-calculated-fields-in-Tableau)
 11) [Charts](#Charts)
 12) [Formatting](#Formatting), [Filtering](#Filtering), [Sorting of Data](#Sorting-of-Data)
-13) [How to remove null values](#How-to-remove-null-values), [How to last month/weeks etc data](#How-to-last-month/weeks-etc-data)
+13) [How to remove null values](#How-to-remove-null-values), [How to last month/weeks etc data](#How-to-last-month-or-weeks-etc-data)
 14) [Combined Fields](#Combined-Fields)
-15) [Groups & Defining Aliases](#Groups-&-Defining-Aliases)
-16) [Sets& computed sets](#Sets-&-computed-sets)
-17) [Hierarchy](#Hierarchy),[Parameters](#Parameters), [Difference between Parameters & Filters](#Difference-between-Parameters-&-Filters)
+15) [Groups & Defining Aliases](#Groups-n-Defining-Aliases)
+16) [Sets& computed sets](#Sets-n-computed-sets)
+17) [Hierarchy](#Hierarchy),[Parameters](#Parameters), [Difference between Parameters n Filters](#Difference-between-Parameters-n-Filters)
 18) [LOD Expressions](#LOD-(Level-of-Details)-Expressions), [Limitation of LOD](#Limitations-of-LOD-Expressions-in-Tableau), [Tables VS LOD Expressions](#Difference-Tables-Vs-LOD-Expressions)
 19) [Reference-Lines](#Reference-Lines)
-20) [Grand-Total-&-Sub-Totals](#Grand-Total-&-Sub-Totals)
+20) [Grand-Total-&-Sub-Totals](#Grand-Total-n-Sub-Totals)
 21) [Bins](#Bins), [Mapping](#Mapping)
 22) [Changing-aggregation-function](#Changing-aggregation-function)
 23) [Optimizing-Performance](#Optimizing-Performance), [Shadow-Extracts](#Shadow-Extracts)
@@ -118,7 +118,7 @@ Example: Lets suppose we have a car & a bike data. In car data we have a column 
 
 
 
-### Connection Type (Live & Extract)
+### Connection Type (Live n Extract)
 #### Live : Any change in the data source will directly reflect in Tableau sheets.
 #### Extract : It imports data first into Tableau Data Engine so any change in data source will not directly reflect in sheets but the speed of operation performed on this data will be much faster.
 While selecting extract option you can add filters as well, also you can add incremental refresh based on certain fields. (More or less you can refer this type of connection as offline)
@@ -207,7 +207,7 @@ Add that measure into the filter section & then select the aggregation you want 
 3) at most
 4) special (here you can select to remove the null values)
 
-#### How to last month/weeks etc data
+#### How to last month or weeks etc data
 You can add the date field into the filter section & then select the relative date, after that you will 5 options 
 1) Relative dates (here you can select the period that x month/week)
 2) range of dates
@@ -227,12 +227,12 @@ These are used to create cross product of members from different dimensions. The
 To create this select 2 fields from different dimensions & right click -> create -> combined fields.
 ![20 combined fields](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/cfb499e4-7857-4fe4-999b-c4ce6efff605)
 
-### Groups & Defining Aliases
+### Groups n Defining Aliases
 ![21 groups](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/8345a1f5-63da-43e6-a0e7-d96d68470d74)
 ![22 aliases](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/9210aef9-82ba-4854-9aa9-237ffce2c194)
 ![23 aliases characterstics](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/dbe32707-8afd-4693-a1d4-c4d6d7f2fc74)
 
-### Sets & computed sets
+### Sets n computed sets
 1) Sets are custom fields that define a subset of dimension members.
 2) It can be created for specific dimension members in the view or it can be based on a condition.
 3) Computed sets are dynamic as the number of members in the set can vary at run time based on the condition.
@@ -311,7 +311,7 @@ Directly use calculated fields which we have created in 3) & 4) & put them in co
 
 
 
-### Difference between Parameters & Filters
+### Difference between Parameters n Filters
 ![35 difference parameter   filters](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/d244b9a7-2fc4-4ff5-b4ba-1139e09ef72d)
 
 
