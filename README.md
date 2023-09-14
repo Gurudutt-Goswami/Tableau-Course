@@ -1,4 +1,4 @@
-# Tableau-Course
+![68 options map issue solution](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/19bfd731-30f3-4587-8529-61b4a86bbdfe)# Tableau-Course
 
 ### What is Tableau ?
 Tableau is business & analytics software tool that helps people to understand, visualise & make data driven decisions in real time with extreme agility & accuracy.In simple words to extract information from a huge data sets we use tableau which in turn write SQL queries by itself based on visualisations selected by developer & make it interative to give meaningful insights.
@@ -485,7 +485,9 @@ Note: We can also change the data type of any field in the data source
 #### Q. What are dimensions & Measures?
 1) Dimensions are Qualitative fields/Categorical Fields
 2) Measure are numberical/Quantitative fields.  
-![Dimensions](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/a3addd57-7528-4d3a-b02b-2ee4f7f2797f) | ![measures](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/3524d9a4-ae03-4f75-8111-567114389619)
+![50 Dimensions](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/7c44a9e0-8903-41c7-a8e2-c918c6d2d1ec)
+ | ![51 measures](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/4f7ce0d9-b5a4-450c-9b41-7a5f1542211b)
+
 Note : Tableau automatically detects data type for each column & also by default aggregation type for measure is Sum but you can change it.
 
 #### Q. Discrete(Blue) & Continuos(Green)? 
@@ -496,12 +498,13 @@ Example:
 Discrete Dimension : Product Name
 Continous Dimension : Year(Order Date)
 Discrete Measures : Sum(Profit)
-![sum of profit](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/9266e78a-59c3-4d3d-a05c-d67deb00bed6)
+![52 sum of profit](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/2b5dc5e3-4e00-440e-802e-7070c9e6240b)
 Continous Measures : Sum(Profit)
 
 #### Q. Filter & their types?
 Filters are way to restrict data that allows you to only see the data you want to see.
-![Order of operations](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/2c041bd0-665d-4fe5-ac9c-aa463e2f240f)
+![53 Order of operations](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/79fc2f99-1a1a-4691-9ce4-84c1ebe03e90)
+
 
 #### Q. There are 3 customer segments in superstore data set. What % of profits is associated with the corporate segment ?
 1) Add segment in rows.
@@ -534,19 +537,19 @@ Create two sets, one for top 5 & other for bottom 5 & then combine those two set
 1) Group : 1 dimensional, used to create High level category.
 2) Set : Multi dimensional & can contain conditions as well.
 Note : We can't use group in calculated fields but can use sets.
-![grouping](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/e2a20828-ed64-4897-be27-465574925438)
+![54 grouping](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/7cb7f0c0-e991-4858-a898-3afbd37f23af)
+
 
 #### Q. Parameter? Example? ( ~Document Properties in Spotfire)
 Parameters are dynamic values that can replace constant values in calculations, filters & reference lines.
 Lets suppose we want to give an option to user to select top & bottom 5,10,15 & 20 customers based on profits, then we can make a parameter with range values values (PFB the image) from 5 to 20 with a step size of 5 & then can use this parameter in those two sets which represents top & bottom n customers.
-![paramter new](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/6ea535ca-754b-4e54-924f-b6b3da14b209)
+![55 paramter new](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/cd96093a-c93e-490e-b02d-57e440511ad4)
 
 #### Q. Tree Map & Heat Map?
 1) Heat Map : Used to compare categories using color & size. For example extreme high/low the profit darker the color & vice versa.
 2) Tree Map : Used to represent hierarchiral data. The space in view is divided into rectangles that are sized & ordered by a measure.
 Note: Main difference is the hierarchy.
-![heat map](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/faabb4db-bf39-400d-9f7e-c1432fbd01c1) | 
-![Tree Map](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/e735dbc5-2331-4fbc-808f-8eef6cc0bf23)
+![56 heat map](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/dbbf331c-c301-4100-bf8f-9582ea399e3c) | ![57 Tree Map](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/65d27d61-6b9b-4a75-ab57-a3fa1528f199)
 
 
 #### Q. .twbx & .twb?
@@ -554,7 +557,8 @@ Note: Main difference is the hierarchy.
 2) .twb : xml document, contains only the instructions to interact with the data source, thus data source needs to be attached seperately.
 
 #### Q. worksheet, dashboard, story & workbook?
-![all](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/d744387f-4ab7-4cb4-9767-bd27b58dc1c8)
+![58 all](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/c77e4a14-60d6-4064-a73d-b667bc9a5499)
+
 Note: Story is more or less a ppt kind off mode where we want to convey something in a sequential & more meaningful manner, basically it directs the person on focused area.
 Points to remember: 
 1) We can only access dimensions, measures & custom fields in a worksheet.
@@ -564,12 +568,14 @@ Points to remember:
 
 #### Q. Blended Axis?
 Blended Axis is used to blend two measures to share an axis when they have same scale.
-![blended axis](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/4c258aa0-ffd6-417a-86ee-5590e3b53586)
+![59 blended axis](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/ad1ab0be-5e35-4714-83e9-2e873c05d482)
+
 
 #### Q. Dual Axis? How to Create?
 Dual axis allows you to compare measures with different scales.
 Note: You can convert dual axis to blend axis by right click -> synchronise axis.
-![dual axis](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/4f54d7ef-77a6-449a-ba9e-ad1199465dcd)
+![60 dual axis](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/99699512-9daf-4126-86ad-510cf7c4f94f)
+
 
 #### Q. Difference dual & blend axis?
 dual axis has two marks cards where as blend has only one & ofcourse dual axis has two axis where as blend has only one. Dual axis is particularly useful when we have measures of different scales.
@@ -580,12 +586,12 @@ It will throw syntax error. Left('Tableau',3) => Tab
 
 #### Q. Null Values & other special values?
 Filter values -> Special values -> Non null values. You can do this manually or just click on the right bottom where you see null values & click on filter values. In case you think for these values the values should be 0 then you can select the 2nd option.
-![null values](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/9021b9a3-7e6a-49dd-8202-4c8c052bee83)
+![61 null values](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/51127927-b3a5-45ad-8c7b-211eab9f21f4)
 
 
 #### Q. 2nd Top product by subcategory by sales for first class ship mode?
 Columns -> sub-category rows -> Sum(sales) filter-> ship mode(first class) sol: chairs
-![sol](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/ac48a080-4162-4091-b69d-6e119fbbc339)
+![62 sol](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/00b5db99-67bf-4176-bbc6-09a507ab8606)
 
 #### Q. Customer name with lowest profit & what's his/her profit ratio?
 Make a new calculated field ```Profit Ratio -> Sum(Profit)/Sum(Sales)``` & plot Sum(sales) by customer name & sort it by decending order & put this profit ratio on labels.
@@ -594,7 +600,7 @@ Make a new calculated field ```Profit Ratio -> Sum(Profit)/Sum(Sales)``` & plot 
 #### Q. Rank, Rank_Modified, Rank_Dense, Rank_Unique?
 Note: All Rank function by default works descending
 Also Rank_Unique though gives unique ranking but prefers according to ascii.
-![all ranks](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/c963604c-472f-46c7-84bd-16614debc145)
+![63 all ranks](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/5c22fc25-0709-4872-a1b9-60988ed73f11)
 
 
 #### Q. Embed webpage in dashboard?
@@ -603,7 +609,7 @@ Also Rank_Unique though gives unique ranking but prefers according to ascii.
 3) After this make a dashboard & add this map sheet along with a webpage from object section.
 4) Now go to dashboard -> action -> add action -> go to url -> add ```https://en.wikipedia.org/wiki/``` url & at last apend state to it ```<state>``` & select ```select```.
 5) Now whichever state from above chart you will click you will be able to its wikipedia page.
-![dynamic web page](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/2a45be38-4041-47cd-b0e8-b2d1014657c2)
+![64 dynamic web page](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/f08c3b7d-9e26-44ba-bc1a-15d09771df8c)
 
 
 ### Q. Design a view to show region wise profit & sales?
@@ -616,17 +622,16 @@ This question demands how much efficient you can portray these details.
 
 
 ### Q. Optimize performance of a dashboard?
-![performance new](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/7005ea28-9f2c-4e68-9fc2-f5214be2b8b0)
+![65 performance new](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/cd9d3cd4-7d46-434b-b26c-766021012a70)
 
 
 ### Q. Viz according to scenario?
-![type of viz](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/00e995f8-702c-4e0d-b916-97809e939a60)
-
+![66 type of viz](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/3af94c29-2e35-4690-bae6-1a3819b630fe)
 
 
 ### Q. What will you do if some countries/province (any grohraphical entity) is missing & displaying a null when you use map view?
-![map issue solution](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/f365c688-ff7e-449d-b1d2-e594110b1c05)
-![options map issue solution](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/69ada025-1062-4c83-8a05-7745e0fefa43)
+![67 map issue solution](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/5eb6da5b-8de0-4a99-bc38-e6c33f96a6ad)
+![68 options map issue solution](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/fd898c4a-45be-457f-96b4-f95cbc5c33bc)
 
 
 ### Q. LOD expressions?
@@ -634,18 +639,22 @@ Level of details expression are used to Run complex queries involving many dimen
 1) Include (includes dimension & view level dimensions)
 2) Exclude (excludes that dimension)
 3) Fixed (only include the mentioned dimension)
-![exclude LOD](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/75f3ac75-85f3-40ca-9bb7-89eab1f30eae)
+![69 exclude LOD](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/712fcc0d-1189-475c-86b7-e8d32217753e)
 
 ### Q. Compute daily profit using LOD?
 LOD 1 
-![LOD Exp 1](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/394cf8a3-e3c2-4e1f-9368-ee6de4810235)
+![70 LOD Exp 1](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/ecb104bb-7f89-4a17-8786-c016a38a3643)
+
 LOD 2
-![LOD Exp 2](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/27d91b8c-4cc9-4d7d-9f0e-95cf4d3035a1)
-![profits by LOD](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/c5dbf11a-93df-4214-8433-ed704dddf876)
+![71 LOD Exp 2](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/0d8b9ff1-35cb-45db-95a0-8da2116b43fd)
+
+![72 profits by LOD](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/5b8a4966-1753-43f3-aabf-3877841b57d4)
 
 
 
 ### Q. How can you schedule a workbook after publishing it?
 ![schedule](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/1458874b-873e-487d-b541-d5bd42fef167)
-![schedule 2](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/c9e1e90a-e4d1-45b7-b679-24bbb743d997)
+![73 schedule](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/ec0a9aab-c16c-4c3f-8c14-5282cecafb51)
+![74 schedule 2](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/5a87cd22-2505-4d43-bf0d-2cda13221c37)
+
 
