@@ -1,19 +1,19 @@
 # Tableau-Course
 
 ## Topics
-1) [What is Tableau ?](#What-is-Tableau-?), [Versions of Tableau](#Versions-of-Tableau), [Tableau Features](#Tableau-Features)
+1) [What is Tableau ](#What-is-Tableau-), [Versions of Tableau](#Versions-of-Tableau), [Tableau Features](#Tableau-Features)
 2) [Advantages of Tableau](#Advantages-of-Tableau), [Disadvantages of Tableau](#Disadvantages-of-Tableau)
-3) [How to extract data sets in Tableau?](#How-to-extract-data-sets-in-Tableau?)
+3) [How to extract data sets in Tableau](#How-to-extract-data-sets-in-Tableau)
 4) [Connecting to Tableau Server](#Connecting-to-Tableau-Server)
 5) [Supported Data sources types](#Supported-Data-sources-types)
 6) [Joining & Blending](#Joining-&-Blending)
 7) [Blending Limitations](#Blending-Limitations)
 8) [Connection Type (Live & Extract)](#Connection-Type-(Live-&-Extract))
 9) [Tableau Authentication](#Tableau-Authentication)
-10) [How to create calculated fields in Tableau?](#How-to-create-calculated-fields-in-Tableau?)
+10) [How to create calculated fields in Tableau](#How-to-create-calculated-fields-in-Tableau)
 11) [Charts](#Charts)
 12) [Formatting](#Formatting), [Filtering](#Filtering), [Sorting of Data](#Sorting-of-Data)
-13) [How to remove null values?](#How-to-remove-null-values?), [How to last month/weeks etc data?](#How-to-last-month/weeks-etc-data?)
+13) [How to remove null values](#How-to-remove-null-values), [How to last month/weeks etc data](#How-to-last-month/weeks-etc-data)
 14) [Combined Fields](#Combined-Fields)
 15) [Groups & Defining Aliases](#Groups-&-Defining-Aliases)
 16) [Sets& computed sets](#Sets-&-computed-sets)
