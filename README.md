@@ -1,12 +1,12 @@
 # Tableau-Course
 
 ## Topics
-1) [What is Tableau ](#What-is-Tableau-), [Versions of Tableau](#Versions-of-Tableau), [Tableau Features](#Tableau-Features)
+1) [What is Tableau](#What-is-Tableau), [Versions of Tableau](#Versions-of-Tableau), [Tableau Features](#Tableau-Features)
 2) [Advantages of Tableau](#Advantages-of-Tableau), [Disadvantages of Tableau](#Disadvantages-of-Tableau)
 3) [How to extract data sets in Tableau](#How-to-extract-data-sets-in-Tableau)
 4) [Connecting to Tableau Server](#Connecting-to-Tableau-Server)
 5) [Supported Data sources types](#Supported-Data-sources-types)
-6) [Joining & Blending](#Joining-&-Blending)
+6) [Joining & Blending](#Joining-n-Blending)
 7) [Blending Limitations](#Blending-Limitations)
 8) [Connection Type (Live & Extract)](#Connection-Type-(Live-&-Extract))
 9) [Tableau Authentication](#Tableau-Authentication)
@@ -81,7 +81,7 @@ This can be determined by the license purchased. The professional edition suppor
 
 
 
-### Joining & Blending
+### Joining n Blending
 ##### Joins
 To perform any type of join just drag the tables in data source section & then select the type of join along with column names with which you want to perform join.  
 By default tableau performs inner join, though you can do left,right & full outer joins as well.  
