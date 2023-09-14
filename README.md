@@ -46,8 +46,9 @@ You can extract any report (in .hyper format) by going to Data tab -> Report Nam
 
 ### Connecting to Tableau Server
 From the starting screen click on Tableau Server & enter your server url -> Connect. After that enter credentials & you are done.
-![Connect to Tableau Server](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/f660001e-72bf-4cf2-8157-3c08fa738398)
-![Steps to follow once connection has been established to tableau server](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/d8a87d32-e572-4070-a15b-cabfd46f9fc4)
+![Connect to Tableau Server](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/1f2b8e95-7e31-455a-9506-ae4db32e16bc)
+![Steps to follow once connection has been established to tableau server](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/ec3ba12e-5d69-449e-a8e9-bfdc232d5274)
+
 
 
 ### Supported Data sources types
