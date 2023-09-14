@@ -1,4 +1,4 @@
-![68 options map issue solution](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/19bfd731-30f3-4587-8529-61b4a86bbdfe)# Tableau-Course
+# Tableau-Course
 
 ### What is Tableau ?
 Tableau is business & analytics software tool that helps people to understand, visualise & make data driven decisions in real time with extreme agility & accuracy.In simple words to extract information from a huge data sets we use tableau which in turn write SQL queries by itself based on visualisations selected by developer & make it interative to give meaningful insights.
