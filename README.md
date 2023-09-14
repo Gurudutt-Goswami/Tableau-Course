@@ -219,22 +219,25 @@ To create this select 2 fields from different dimensions & right click -> create
 ### Hierarchy
 A hierarchy is a grouping of related dimensions depicting direct parent-child relationships between them.
 To create a hierarchy just drag a field on to another & name it according. In case you want to add a new field into just drag that field to a specific level with in a hierarchy & you are done.
-![hierarchy](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/b9d768ad-eb9a-400e-b8e8-a2691755aafd)
 
-![date hierarchy](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/7e01f7cc-f887-46b4-94c8-0aae820bea0b)
+![26 hierarchy](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/12dc5e4c-6003-4554-82b5-face71cc418b)
+![27 date hierarchy](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/3f5b288d-96c0-4226-b98a-e0ae913a0b32)
 
-![scenario 4](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/5649fbb8-c4a2-4363-b524-ac341fcc1358)
+
+![28 scenario 4](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/e72a6610-5675-4221-94b6-5db40e19e9da)
 You can also add filters for specific quaters & also quick table calculation like running total to see actual growth year by year
-![scenario 4 sol](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/08545209-86c5-4a85-898f-4012b84b4b8d)
+![29 scenario 4 sol](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/cafe21e4-6e00-4845-9285-eacdeeff02f7)
 Pivotting date parts to view it in better way
-![scenario 4 better sol](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/9f5f7722-c31d-4c95-8f75-9608e4b4ba87)
+![30 scenario 4 better sol](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/5ea22534-f522-43d1-b6bb-69d5663d5acc)
+
 
 ### Parameters
 1) Top N parameters: Just add the filter & while selecting top n select create a parameter & then you can select list with certain values & how those values should appears & after creating you can show parameter in your sheet.
-![top n parameters](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/2893675d-c07a-471f-a7b0-d2ff85bc0ba4)
+![31 top n parameters](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/48836087-3a99-4d75-b5e6-d375cbb6f410)
 
-2) Date Field Parameter : Create a string parameter which will contains the string values (year,quarter,month,week & day) & based on this we will then create calculated field which will take this parameter values.
-![date field parameter](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/937c978f-fa41-4eb7-bb47-462bcdbbc202)
+
+3) Date Field Parameter : Create a string parameter which will contains the string values (year,quarter,month,week & day) & based on this we will then create calculated field which will take this parameter values.
+![32 date field parameter](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/49950b3d-8a26-48b1-8579-b43fefbaad65)
 After creating this create following calculated field
 Note that `2 Date Field Parameter` is the name of the date parameter
 ```
@@ -250,7 +253,8 @@ Once its created you can use this calculated values in your visualisations.
 
 3) Dynamic Dimension Parameter
 Create a string parameter which will contain (Category, ship mode & Segment) & based on this we will then create a calculate field which will take this parameter values as case conditions.
-![dynamic dimensions parameter](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/aaa7d115-b47b-4ad3-864b-14794d273011)
+
+![33 dynamic dimensions parameter](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/28084bc1-cb68-476f-a981-72efb7d1818c)
 After this create following calculated field
 Note that `3 Dynamic Dimensions Parameter` is the name dynamic parameter.
 ```
@@ -264,7 +268,8 @@ Once its created you can use this calculated values in your visualisations.
 
 4) Dynamic Measures Parameter
 Create a string parameter which will contain (Sales, profit & Quantity) & based on this we will then create a calculated field which will take this parameter values as case conditions.
-![dynamic measure parameter](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/1831b675-3515-4388-bbcd-cd75b66252b3)
+![34 dynamic measure parameter](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/8ad7a8f1-7f59-4e81-bace-cd38c34c6f33)
+
 After this create following calculated field
 Note that `4 Dynamic Measure Parameter` is the name dynamic parameter.
 ```
@@ -283,7 +288,7 @@ Directly use calculated fields which we have created in 3) & 4) & put them in co
 
 
 ### Difference between Parameters & Filters
-![difference parameter   filters](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/9e3a897a-37d2-445a-b1a2-6acdba797e70)
+![35 difference parameter   filters](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/d244b9a7-2fc4-4ff5-b4ba-1139e09ef72d)
 
 
 
@@ -320,7 +325,7 @@ b) Avg({INCLUDE [State] : SUM([Sales])}) => Sum of sales per state
 1) Create a date parameter first with date data type.
 2) Now go to analytics tabs & drag reference lines to the visualisation section & drop it on table.
 3) Now here you can use that date parameter which you create in step 1 & can also modify the line type & color.
-![reference line](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/a0faef12-329c-4696-9fcc-fb9fd4c1d74e)
+![36 reference line](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/1970f7d7-f687-4f6d-801c-28b91383bd86)
 
 
 ### Grand Total & Sub Totals
@@ -336,15 +341,19 @@ b) Avg({INCLUDE [State] : SUM([Sales])}) => Sum of sales per state
 3) Two Types : Fixed sized & variable sized.
 4) Note : To create variable sized bins you need to first create a calculated field out of those columns & then you can use this newly generated column to create bins of your own sized.
 #### Fixed sized Bins
-![bins](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/4f851bcb-8dd7-4202-8ff0-d492341b8e0d)
+![37 bins](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/680667f9-22f1-4fac-a298-d61e6d0cbf97)
+
+
 #### Variable sized Bins
 Note in the following there are 3 bins of different sizes 
-![variable sized bins](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/ba8c63e5-cb45-4133-8ff0-bc0b5ca50ec5)
+![38 variable sized bins](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/5f3cf934-8d63-4e39-ba1a-751080e6dfaa)
 
 
 ### Mapping
 Difference between symbol map & normal map is that in symbol map one can use 0 to 2 measure while in normal map one can only use 0 to 1 measure.
-![scenario 3](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/314416e2-965c-416d-bb43-58af2897b323)
+![38 scenario 3](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/563890ba-0f99-443a-9c6e-587ff7027e95)
+
+
 Note : Before proceeding if your data has any such values which Tableau doesn't able to understand then it will throw an error at the bottom right & on click you will see a pop up to correct the same.
 1) Double click on state this will generate longitude & lattitude.
 2) Put sales in color by. (This means darker the color higher the sales & vice versa)
@@ -353,20 +362,23 @@ Note : Before proceeding if your data has any such values which Tableau doesn't 
 
 In case tableau is not able to detect geographic roles you can do following
 Note: In case you are providing your custom geocoding then keep in mind that the longitude & lattitude should be real numbers & that up to 1 decimal places at least.
-![map problem](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/73c0c12d-ef86-488f-82a5-bca721e77465)
+![39 map problem](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/ad3a57ab-0189-44c7-86a2-bc0880d3f51a)
 
 Custom geocoding
-![german postal code](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/1f10e855-d670-4c0b-aff3-2e87307a8ac3)
+![41 german postal code](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/5188133d-2ae1-4ea0-9812-41469de75ba8)
+
 
 
 you can also explicitly tell tableau geographical role if you think its not correct by default
-![geographical roles change](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/9f74ef53-d885-4259-ad19-3090097583e4)
+![42 geographical roles change](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/b8b8eb8d-b826-4f9f-b046-809b7f07e709)
+
 
 
 
 
 ### Changing aggregation function
-![changing aggregation function](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/c0a3eb85-b30f-4c52-a2fd-08b8a55ad616)
+![43 changing aggregation function](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/bdb89ac7-2ad7-4522-a458-311096474ca5)
+
 
 
 ### Tips 
@@ -374,10 +386,12 @@ Quick table calculation, click on the field after adding that too rows & select 
 
 
 ### Optimizing Performance
-![performance](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/eda7ee1c-52ed-492f-8232-833c2bfa8ee8)
+![44 performance](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/686b2586-bab9-4e10-b2ea-dd8ff1c04a29)
+
 #### Shadow Extracts
 Note: The folder which contains this will only be visible on licensed copy.
-![tableau shadow extracts](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/5617ba05-fbb6-447f-be16-8463f29ba557)
+![45 tableau shadow extracts](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/ce0934b1-2e05-4d69-9bcf-8b6ee29857a4)
+
 
 
 ### Practice Sets
@@ -431,24 +445,27 @@ Add on
 
 
 #### Business Scenario
-![scenario](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/df4efa9e-0ff8-463e-9cbb-369f44cae9e6)
+![46 scenario](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/9a531b68-1026-4a6c-bf40-c42e60303f86)
+
 
 Sol: 
 1) Line chart - sales by order- yearly level
 2) Drill quarterly
 3) create a table calculation - difference
+![47 scenario sol](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/9a328ebb-9c21-4b07-817b-fc44f5c42d44)
 
-![scenario sol](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/3c27a663-8a41-4105-9fd3-229e88cab85c)
+
 
 
 #### Business Scenario 2
-![scenario 2](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/e4766aa9-dc9c-4296-b0c0-ddea1d1493db)
+![48 scenario 2](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/988826b4-94bf-4eae-8a4c-c71bb730a624)
+
 Sol:
 1) Sales by state
 2) Blended Axis - Profit and Sales
 3) Filter - Phones
 4) Scatter plot
-![scenario 2 sol](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/b4c2b6ce-5bfb-4a15-8c64-1f3b83a62d7f)
+![49 scenario 2 sol](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/9cbebb1c-6f0e-4d38-98fb-c1c1dd51d10e)
 
 
 
