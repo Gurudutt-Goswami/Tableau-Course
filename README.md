@@ -1,5 +1,32 @@
 # Tableau-Course
 
+## Topics
+1) [What is Tableau ?](#What-is-Tableau-?), [Versions of Tableau (#Versions-of-Tableau], [Tableau Features](#Tableau-Features)
+2) [Advantages of Tableau](#Advantages-of-Tableau), [Disadvantages of Tableau](#Disadvantages-of-Tableau)
+3) [How to extract data sets in Tableau?](#How-to-extract-data-sets-in-Tableau?)
+4) [Connecting to Tableau Server](#Connecting-to-Tableau-Server)
+5) [Supported Data sources types](#Supported-Data-sources-types)
+6) [Joining & Blending](#Joining-&-Blending)
+7) [Blending Limitations](#Blending-Limitations)
+8) [Connection Type (Live & Extract)](#Connection-Type-(Live-&-Extract))
+9) [Tableau Authentication](#Tableau-Authentication)
+10) [How to create calculated fields in Tableau?](#How-to-create-calculated-fields-in-Tableau?)
+11) [Charts](#Charts)
+12) [Formatting](#Formatting), [Filtering](#Filtering), [Sorting of Data](#Sorting-of-Data)
+13) [How to remove null values?](#How-to-remove-null-values?), [How to last month/weeks etc data?](#How-to-last-month/weeks-etc-data?)
+14) [Combined Fields](#Combined-Fields)
+15) [Groups & Defining Aliases](#Groups-&-Defining-Aliases)
+16) [Sets& computed sets](#Sets-&-computed-sets)
+17) [Hierarchy](#Hierarchy),[Parameters](#Parameters), [Difference between Parameters & Filters](#Difference-between-Parameters-&-Filters)
+18) [LOD Expressions](#LOD-(Level-of-Details)-Expressions), [Limitation of LOD](#Limitations-of-LOD-Expressions-in-Tableau), [Tables VS LOD Expressions](#Difference-Tables-Vs-LOD-Expressions)
+19) [Reference-Lines](#Reference-Lines)
+20) [Grand-Total-&-Sub-Totals](#Grand-Total-&-Sub-Totals)
+21) [Bins](#Bins), [Mapping](#Mapping)
+22) [Changing-aggregation-function](#Changing-aggregation-function)
+23) [Optimizing-Performance](#Optimizing-Performance), [Shadow-Extracts](#Shadow-Extracts)
+24) [Practice-Sets](#Practice-Sets), [Scenarios](#Scenarios), [Interview-Questions](#Interview-Questions)
+
+
 ### What is Tableau ?
 Tableau is business & analytics software tool that helps people to understand, visualise & make data driven decisions in real time with extreme agility & accuracy.In simple words to extract information from a huge data sets we use tableau which in turn write SQL queries by itself based on visualisations selected by developer & make it interative to give meaningful insights.
 
@@ -36,9 +63,6 @@ Tableau is business & analytics software tool that helps people to understand, v
 3) Poor after sales support
 4) Poor BI capabilities
 5) Poor Version control
-
-### Hands on with Tableau
-1) First perform all the necessary joins based on your requirement
 
 ### How to extract data sets in Tableau?
 You can extract any report (in .hyper format) by going to Data tab -> Report Name -> Extract Data and now either you can extract everything in one table or to multiple tables & also you can select how to identify new rows by checking increamental refresh & then selecing the column name with which you want to identify them.
@@ -139,7 +163,7 @@ ELSE 'Low'
 END
 
 
-### Charts 
+### Charts
 #### Box Plots
 ![13 box_description](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/37f09db8-8df2-4b1d-8cb4-197699db45ea)
 
@@ -443,7 +467,7 @@ Add on
 7) Now put Emerging or Developing State in color & rename the sheet as well to the same.
 8) You can sort based on distinct customer count or sales goal
 
-
+### Scenarios
 #### Business Scenario
 ![46 scenario](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/9a531b68-1026-4a6c-bf40-c42e60303f86)
 
