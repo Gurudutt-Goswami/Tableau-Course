@@ -53,7 +53,8 @@ From the starting screen click on Tableau Server & enter your server url -> Conn
 
 ### Supported Data sources types
 This can be determined by the license purchased. The professional edition supports over 40+ data connections including connections available in personal edition.
-![connections](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/dcc2a819-91f1-411d-9b54-140e54410d66)
+![connections](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/7409b78f-1830-4285-8ba4-db4ffdce660f)
+
 
 
 ### Joining & Blending
@@ -62,7 +63,8 @@ To perform any type of join just drag the tables in data source section & then s
 By default tableau performs inner join, though you can do left,right & full outer joins as well.  
 In case sometimes right & full outer join is disabled then what you can do is write your own New Custom SQL but this options generally appears once you established connection from a database that is legacy connection though earlier it was also available for excel files. (Where while importing the excel files you not open it normally but select 'open with legacy connection' to get New Custom SQL option.(Note legacy connection uses microsoft jet data engine driver)
 Joins are particularly useful when almost all the dimensions are coming from the same data source. (For exmaple considering our sample superstore data set if sales manager wants to get details regarding how many order have been returned from a region then we need to perform between orders & return tables based on region column)
-![Joins](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/cf512042-857c-480f-82ed-9311641feb4a)
+![4 Joins](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/6ca0c0b0-0baf-493b-bd17-661943a60326)
+
 
 To read more about how to write custom sql : https://help.tableau.com/current/pro/desktop/en-us/customsql.htm
 ##### Blending
@@ -76,16 +78,18 @@ To read more about how to write custom sql : https://help.tableau.com/current/pr
 
 Example: Lets suppose we have a car & a bike data. In car data we have a column called Region & in bike we have a column called Zone. Apart from these two columns we have many other common columns. After bringing these two data sources in Tableau we go to Data -> Edit Blend Relationship. Tableau by default will show certain columns which can be matched but since we want to explicitly define blend relationship we can add Region & zone as matched column for blend. After this if we use fields from car data then it will treat car data as primary source & vice versa. Now suppose we want to see Sum of annual sales of both car & bike in a single chart then we need to make a blend calculated field, something like below which we can use in our chart. (Note: data source name has been added for car, also we need ZN to replace null values with 0)
 
-![data blend calculation](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/5293258d-4ad3-455a-8d5f-0655c29bf1a9)
+![data blend calculation](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/bbbfc608-d26b-43e2-b3d5-f666ff902b7c)
+
 
 ### Blending Limitations
-![blending limitations](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/96ddd501-af54-468f-ad9c-266071564345)
+![6 blending limitations](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/cc6e6e09-abf3-4bf1-b17a-35ef806c78b8)
 
 
 
-![Blended data](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/ab8f7b26-7c15-4f2c-b84d-9c78ecca329e)
-![difference](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/2b2c53fb-eb6f-4429-9d29-da9455b429ca)
-![difference new](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/a8c827b4-4afd-4d24-ab21-44b484f381c0)
+![7 Blended data](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/4bd9eef2-af9f-4291-baa8-e4da5b8480af)
+![8 difference](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/a1399d93-3c5d-45f6-97d5-327b012e6302)
+![9 difference new](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/c08a9cc7-7aaa-41fc-ab7c-b4ace6f6e745)
+
 
 
 
@@ -99,7 +103,8 @@ While selecting extract option you can add filters as well, also you can add inc
 3) Can you filters & limits to only get focused data.
 4) can be refreshed fully/incrementally to add recent data.
 5) You can extract data even from live connections.
-![extract data](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/b801ee2d-b44d-4cc9-af3f-e8acb6ffe384)
+![extract data](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/93831f58-3c5b-4083-9532-d79bd816f92b)
+
 
 
 
@@ -107,8 +112,8 @@ While selecting extract option you can add filters as well, also you can add inc
 If kerberos is enabled then you don't need to provide server & other authentication details while publishing workbooks.
 Tableau server supports kerberos based single sign on (SS0).
 Users active directory accounts in a kerberos enabled environment can use single sign on to connect to tableau server from tableau desktop and web browsers.
-![Kerberos](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/42d4cb2c-902b-4ce1-ac79-5dc0f1b2a159)
-![kerberos setup](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/e065c4e4-102f-4b88-888a-8152d27e59ee)
+![11 Kerberos](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/8ebab794-9499-48b8-b18a-4c21fde1e6d9)
+![12 kerberos setup](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/33af134e-76aa-47f0-9406-4ce404a8880f)
 
 
 
@@ -136,19 +141,21 @@ END
 
 ### Charts 
 #### Box Plots
-![box_description](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/cced1c25-2624-4ed6-a96b-7844b088b4b7)
+![13 box_description](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/37f09db8-8df2-4b1d-8cb4-197699db45ea)
+
 
 #### Combination Charts
 Combined Axes are view which uses measures sharing single axis so that all the marks are displayed in a single pane. It uses 2 or more measures that share a single axes.
 Combination charts are views that use multiple mark types in the same sheet. It can be customised to show the distinct mark type for each distinct measures which can be displayed in individual axis, blended axis or dual axis.
-![combination chart](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/ee2f39c1-c63f-40c0-a73e-6f59769cffc7)
+![14 combination chart](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/f2100e1f-b3d3-4644-97ab-b8bb24f4d167)
+
 
 #### Map Plots
 Tableau automatically assigns geographical roles to fields with common geographical names such as country,state, city & so on. It also automatically adds the lattitude & longitude to the fields added to rows & columns.
 
 #### Scatter Plots
 Used to visualise relationship between two numeric fields. Its uses one measure in column & atleast one measure in row.
-![matrix scatter plot](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/b9c8e7ca-dc09-4f70-9e8b-7a3f38bb28d1)
+![15 matrix scatter plot](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/36428d12-b186-439b-999b-8f5feb36bf5a)
 
 
 ### Formatting
@@ -163,10 +170,10 @@ A) After adding a field to the filter section you get 4 options: (Dimension Leve
 4) Top (top/bottom n rows by any specific field condition)
 
 #### When filtering on a measure, you can either select filter row level data or an aggregated value of data.
-![measure level filter](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/c09f1625-9e91-470a-a526-b34dd8cc6bd4)
+![measure level filter](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/9e7d98de-22ef-4c43-9f31-e1286c69265d)
 
 #### Filter Types 
-![Filter Options](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/0e8ea0fd-e10c-4ffc-9f3d-ad2e07ee32df)
+![17 Filter Options](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/8c7db441-0548-491f-b219-dcd09e4c75e7)
 
 
 #### How to remove null values?
@@ -183,32 +190,31 @@ You can add the date field into the filter section & then select the relative da
 3) starting date
 4) ending date
 5) special
-![Filters details](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/585543c8-d159-47e8-a5fb-baa63dfdd5e7)
+![18 Filters details](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/420b9369-dde4-4ad4-bb1a-252083f1f3a9)
 
 
 ### Sorting of Data
-![sorting](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/9d90c8c4-69ff-4895-aec4-973bf1588f04)
+![19 sorting](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/2a28cfd8-49da-45a4-ac21-c39bf07fe50d)
+
 
 
 ### Combined Fields
 These are used to create cross product of members from different dimensions. The view will include all combinations of each members of the dimensions.
 To create this select 2 fields from different dimensions & right click -> create -> combined fields.
-![combined fields](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/cbd940f6-7f1a-4a7a-9e4a-9ee86d0e6104)
+![20 combined fields](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/cfb499e4-7857-4fe4-999b-c4ce6efff605)
 
 ### Groups & Defining Aliases
-![groups](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/e2ba1c46-8788-4686-bae4-110efb282381)
-![aliases](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/3c4ea906-4c93-4e7a-b88a-a9b9a4480e1e)
-![aliases characterstics](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/1aae7ddd-fc7a-4fff-9f63-73d586d12111)
+![21 groups](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/8345a1f5-63da-43e6-a0e7-d96d68470d74)
+![22 aliases](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/9210aef9-82ba-4854-9aa9-237ffce2c194)
+![23 aliases characterstics](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/dbe32707-8afd-4693-a1d4-c4d6d7f2fc74)
 
 ### Sets & computed sets
 1) Sets are custom fields that define a subset of dimension members.
 2) It can be created for specific dimension members in the view or it can be based on a condition.
 3) Computed sets are dynamic as the number of members in the set can vary at run time based on the condition.
 4) You can also combine two sets to make a new set.
-
-![sets](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/efeb7801-62b0-4299-8e10-34d2b557edcf)
-![combined sets](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/82cc7180-35d9-4cfa-970c-e65dfe66647e)
-
+![24 sets](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/fa4387ad-93c9-4139-8d5e-44c88125e4d8)
+![25 Combined sets new](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/34ac7d69-b176-4cdf-b1c9-64dee64efcb4)
 
 ### Hierarchy
 A hierarchy is a grouping of related dimensions depicting direct parent-child relationships between them.
