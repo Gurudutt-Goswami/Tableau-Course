@@ -8,7 +8,7 @@
 5) [Supported Data sources types](#Supported-Data-sources-types)
 6) [Joining & Blending](#Joining-n-Blending)
 7) [Blending Limitations](#Blending-Limitations)
-8) [Connection Type (Live & Extract)](#Connection-Type-(Live-n-Extract))
+8) [Connection Type (Live & Extract)](#Connection-Type-Live-n-Extract)
 9) [Tableau Authentication](#Tableau-Authentication)
 10) [How to create calculated fields in Tableau](#How-to-create-calculated-fields-in-Tableau)
 11) [Charts](#Charts)
@@ -18,7 +18,7 @@
 15) [Groups & Defining Aliases](#Groups-n-Defining-Aliases)
 16) [Sets& computed sets](#Sets-n-computed-sets)
 17) [Hierarchy](#Hierarchy),[Parameters](#Parameters), [Difference between Parameters n Filters](#Difference-between-Parameters-n-Filters)
-18) [LOD Expressions](#LOD-(Level-of-Details)-Expressions), [Limitation of LOD](#Limitations-of-LOD-Expressions-in-Tableau), [Tables VS LOD Expressions](#Difference-Tables-Vs-LOD-Expressions)
+18) [LOD Expressions](#LOD-Level-of-Details-Expressions), [Limitation of LOD](#Limitations-of-LOD-Expressions-in-Tableau), [Tables VS LOD Expressions](#Difference-Tables-Vs-LOD-Expressions)
 19) [Reference-Lines](#Reference-Lines)
 20) [Grand-Total-&-Sub-Totals](#Grand-Total-n-Sub-Totals)
 21) [Bins](#Bins), [Mapping](#Mapping)
@@ -118,7 +118,7 @@ Example: Lets suppose we have a car & a bike data. In car data we have a column 
 
 
 
-### Connection Type (Live n Extract)
+### Connection Type Live n Extract
 #### Live : Any change in the data source will directly reflect in Tableau sheets.
 #### Extract : It imports data first into Tableau Data Engine so any change in data source will not directly reflect in sheets but the speed of operation performed on this data will be much faster.
 While selecting extract option you can add filters as well, also you can add incremental refresh based on certain fields. (More or less you can refer this type of connection as offline)
@@ -316,7 +316,7 @@ Directly use calculated fields which we have created in 3) & 4) & put them in co
 
 
 
-### LOD (Level of Details) Expressions
+### LOD Level of Details Expressions
 LOD expressions are employed to execute complex queries at data source level instead of bringing them to tableau interface.
 1) Row level LOD expressions (expressions referencing unaggregated data source columns are computed for each row in the underlying table)
 2) View level LOD expressions (expressions referencing aggregated data source columns are computed at the dimensionality defined by the dimensions in the view)
