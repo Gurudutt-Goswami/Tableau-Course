@@ -1,7 +1,7 @@
 # Tableau-Course
 
 ## Topics
-1) [What is Tableau ?](#What-is-Tableau-?), [Versions of Tableau (#Versions-of-Tableau], [Tableau Features](#Tableau-Features)
+1) [What is Tableau ?](#What-is-Tableau-?), [Versions of Tableau](#Versions-of-Tableau), [Tableau Features](#Tableau-Features)
 2) [Advantages of Tableau](#Advantages-of-Tableau), [Disadvantages of Tableau](#Disadvantages-of-Tableau)
 3) [How to extract data sets in Tableau?](#How-to-extract-data-sets-in-Tableau?)
 4) [Connecting to Tableau Server](#Connecting-to-Tableau-Server)
