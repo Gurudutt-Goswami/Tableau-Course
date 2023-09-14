@@ -16,7 +16,7 @@
 13) [How to remove null values](#How-to-remove-null-values), [How to last month/weeks etc data](#How-to-last-month-or-weeks-etc-data)
 14) [Combined Fields](#Combined-Fields)
 15) [Groups & Defining Aliases](#Groups-n-Defining-Aliases)
-16) [Sets& computed sets](#Sets-n-computed-sets)
+16) [Sets & computed sets](#Sets-n-computed-sets)
 17) [Hierarchy](#Hierarchy),[Parameters](#Parameters), [Difference between Parameters n Filters](#Difference-between-Parameters-n-Filters)
 18) [LOD Expressions](#LOD-Level-of-Details-Expressions), [Limitation of LOD](#Limitations-of-LOD-Expressions-in-Tableau), [Tables VS LOD Expressions](#Difference-Tables-Vs-LOD-Expressions)
 19) [Reference-Lines](#Reference-Lines)
@@ -352,7 +352,7 @@ b) Avg({INCLUDE [State] : SUM([Sales])}) => Sum of sales per state
 ![36 reference line](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/1970f7d7-f687-4f6d-801c-28b91383bd86)
 
 
-### Grand Total & Sub Totals
+### Grand Total n Sub Totals
 1) Totals facitilates the aggregation of data in a View.
 2) It can only be applied to gied type visualisations.
 3) Sub totals & grand totals are computed as a seperate calculation of the measure at a coarser level of granularity.
