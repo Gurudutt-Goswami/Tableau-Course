@@ -64,6 +64,11 @@ Tableau is business & analytics software tool that helps people to understand, v
 4) Poor BI capabilities
 5) Poor Version control
 
+### Tableau File Types and Folders
+You can save your work using several different Tableau specific file types: workbooks, bookmarks, packaged data files, data extracts, and data connection files.
+.twb , .tbm, .twbx , .hyper , .tds , .tdsx
+For more details: https://help.tableau.com/current/pro/desktop/en-us/environ_filesandfolders.htm
+
 ### How to extract data sets in Tableau
 You can extract any report (in .hyper format) by going to Data tab -> Report Name -> Extract Data and now either you can extract everything in one table or to multiple tables & also you can select how to identify new rows by checking increamental refresh & then selecing the column name with which you want to identify them.
 
