@@ -65,8 +65,12 @@ Robust Security
 5) Poor Version control
 
 ### Tableau File Types and Folders
-You can save your work using several different Tableau specific file types: workbooks, bookmarks, packaged data files, data extracts, and data connection files.
-.twb , .tbm, .twbx , .hyper , .tds , .tdsx
+You can save your work using several different Tableau specific file types: 
+1) workbooks : .twb
+2) bookmarks : .tbm
+3) packaged data files : .twbx
+4) data extracts : .hyper
+5) data connection files : .tds & .tdsx
 For more details: https://help.tableau.com/current/pro/desktop/en-us/environ_filesandfolders.htm
 
 ### How to extract data sets in Tableau
