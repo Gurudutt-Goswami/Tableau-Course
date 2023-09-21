@@ -684,13 +684,11 @@ LOD 2
 
 ![72 profits by LOD](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/5b8a4966-1753-43f3-aabf-3877841b57d4)
 
-### Row Level Security
-https://help.tableau.com/current/server-linux/en-us/rls_options_overview.htm#:~:text=The%20simplest%20way%20to%20achieve,%E2%80%9D%20column%20is%20%E2%80%9CEast%E2%80%9D.
-
 
 ### Q. How can you schedule a workbook after publishing it?
 ![schedule](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/1458874b-873e-487d-b541-d5bd42fef167)
 ![73 schedule](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/ec0a9aab-c16c-4c3f-8c14-5282cecafb51)
 ![74 schedule 2](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/5a87cd22-2505-4d43-bf0d-2cda13221c37)
 
-
+### Row Level Security
+https://help.tableau.com/current/server-linux/en-us/rls_options_overview.htm#:~:text=The%20simplest%20way%20to%20achieve,%E2%80%9D%20column%20is%20%E2%80%9CEast%E2%80%9D.
