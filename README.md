@@ -25,6 +25,7 @@
 22) [Changing-aggregation-function](#Changing-aggregation-function)
 23) [Optimizing-Performance](#Optimizing-Performance), [Shadow-Extracts](#Shadow-Extracts)
 24) [Practice-Sets](#Practice-Sets), [Scenarios](#Scenarios), [Interview-Questions](#Interview-Questions)
+25) [Row Level Security](#Row-Level-Security)
 
 
 ### What is Tableau
@@ -683,6 +684,8 @@ LOD 2
 
 ![72 profits by LOD](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/5b8a4966-1753-43f3-aabf-3877841b57d4)
 
+### Row Level Security
+https://help.tableau.com/current/server-linux/en-us/rls_options_overview.htm#:~:text=The%20simplest%20way%20to%20achieve,%E2%80%9D%20column%20is%20%E2%80%9CEast%E2%80%9D.
 
 
 ### Q. How can you schedule a workbook after publishing it?
