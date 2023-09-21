@@ -363,7 +363,7 @@ b) Avg({INCLUDE [State] : SUM([Sales])}) => Sum of sales per state
 
 ### Grand Total n Sub Totals
 1) Totals facitilates the aggregation of data in a View.
-2) It can only be applied to gied type visualisations.
+2) It can only be applied to grid type visualisations.
 3) Sub totals & grand totals are computed as a seperate calculation of the measure at a coarser level of granularity.
 4) To apply this go to the analytics panel & drag totals to the visualisations.
 
