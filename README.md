@@ -673,9 +673,9 @@ This question demands how much efficient you can portray these details.
 
 ### Q. LOD expressions?
 Level of details expression are used to Run complex queries involving many dimensions at the source level instead of bringing them to tableau interface.
-1) Include (includes dimension & view level dimensions)
+1) Include (includes dimension & view level dimensions) (performs like measures)
 2) Exclude (excludes that dimension)
-3) Fixed (only include the mentioned dimension)
+3) Fixed (only include the mentioned dimension) (performs like boolean)
 ![69 exclude LOD](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/712fcc0d-1189-475c-86b7-e8d32217753e)
 
 ### Q. Compute daily profit using LOD?
