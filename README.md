@@ -206,6 +206,9 @@ A) After adding a field to the filter section you get 4 options: (Dimension Leve
 #### When filtering on a measure, you can either select filter row level data or an aggregated value of data.
 ![measure level filter](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/9e7d98de-22ef-4c43-9f31-e1286c69265d)
 
+#### Extract Filters 
+https://www.javatpoint.com/tableau-extract-filters#:~:text=Click%20on%20the%20%22Edit%22%20option,option%20present%20in%20the%20Window.
+
 #### Filter Types 
 ![17 Filter Options](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/8c7db441-0548-491f-b219-dcd09e4c75e7)
 
