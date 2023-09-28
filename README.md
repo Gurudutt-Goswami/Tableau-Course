@@ -553,7 +553,7 @@ Sol : Inner, left, right & full outer.
 Note : To get product of two fields select those field right click & create computed fields. This will contain product of those two column. (mxn rows).
 You can also do union which is basically to add rows of 2 or more tables into one.
 
-####. Q. Joining & Blending?
+#### Q. Joining & Blending?
 Joining : Combining the data between 2 or more tables or sheets within the same data source is data joining.  
 Blending : Combining data from 2 or more different/heterogenous sources.  
 Note: In blending we actually dont combine data but query different sources independently & the field the visual uses define the primary & secondary sources.
