@@ -41,15 +41,15 @@ Tableau is business & analytics software tool that helps people to understand, v
 ### Tableau Features
 Robust Security
 1) Provides proper Authentication for user access & data connections.
-2) Also provide you to integrate with other security protocols like active directory, kerberos etc.
+2) ```Also provide you to integrate with other security protocols like active directory, kerberos etc.```
 3) Practices low level filtering which helps to secure data.
 4) Collaboration & Sharing
    Just like any other BI tool you can easily share reports/sheets/dashboards created in Tableau with other users via on-premise, cloud, hybrid etc.
 5) Easy to do Time series & forecasting or drawing trend lines.
 6) Provides both Live & in memory data connections.
-7) Facitilates wide range of charts some unique ones are ghantt, motion chart etc.
-8) Capable to show mobile view as well.
-9) Wide range of Data sources.
+7) ```Facitilates wide range of charts some unique ones are ghantt, motion chart etc.```
+8) ```Capable to show mobile view as well.```
+9) ```Wide range of Data sources.```
 
 ### Advantages of Tableau
 1) Remarkable visualisation
