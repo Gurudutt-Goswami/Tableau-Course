@@ -695,3 +695,6 @@ LOD 2
 
 ### Row Level Security
 https://help.tableau.com/current/server-linux/en-us/rls_options_overview.htm#:~:text=The%20simplest%20way%20to%20achieve,%E2%80%9D%20column%20is%20%E2%80%9CEast%E2%80%9D.
+
+### Workbook Optimiser
+https://help.tableau.com/current/pro/desktop/en-us/wbo_overview.htm
