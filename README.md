@@ -53,13 +53,13 @@ Robust Security
 
 ### Advantages of Tableau
 1) Remarkable visualisation
-2) Ease of use
-3) High Performance
+2) ```Ease to use```
+3) ```High Performance```
 4) Mobile friendly
-5) Rich community
+5) ```Rich community```
 
 ### Disadvantages of Tableau
-1) High Cost
+1) ```High Cost```
 2) Inflexible pricing (pricing is independent of customer requirement)
 3) Poor after sales support
 4) Poor BI capabilities
