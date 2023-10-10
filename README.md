@@ -132,10 +132,10 @@ Example: Lets suppose we have a car & a bike data. In car data we have a column 
 #### Live : Any change in the data source will directly reflect in Tableau sheets.
 #### Extract : It imports data first into Tableau Data Engine so any change in data source will not directly reflect in sheets but the speed of operation performed on this data will be much faster.
 While selecting extract option you can add filters as well, also you can add incremental refresh based on certain fields. (More or less you can refer this type of connection as offline)
-1) Extracts are subset of data source created & saved locally in your hard drive disk with .tde (tableau data extract) or .hyper extension.
+1) ```Extracts are subset of data source created & saved locally in your hard drive disk with .tde (tableau data extract) or .hyper extension.```
 2) Enable faster data retrival as it eliminate quering data source.
-3) Can you filters & limits to only get focused data.
-4) can be refreshed fully/incrementally to add recent data.
+3) ```Can you filters & limits to only get focused data.```
+4) ```can be refreshed fully/incrementally to add recent data.```
 5) You can extract data even from live connections.
 ![extract data](https://github.com/Gurudutt-Goswami/Tableau-Course/assets/86184439/93831f58-3c5b-4083-9532-d79bd816f92b)
 
