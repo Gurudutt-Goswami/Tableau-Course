@@ -698,3 +698,30 @@ https://help.tableau.com/current/server-linux/en-us/rls_options_overview.htm#:~:
 
 ### Workbook Optimiser
 https://help.tableau.com/current/pro/desktop/en-us/wbo_overview.htm
+
+### Version comparison
+#### 2019.3 
+1) Rserve : Package to integrate R script in Tableau
+2) View recommendation + Recent + Popular
+3) Request Content Access on Tableau server
+4) Tableau mobile biometrics to unlock apps
+
+#### 2020.4
+1) Multiple mark layer & its arrangement
+2) Resource Monitoring tool for linux
+3) predictive modelling (model_quantile)
+4) Multiline Comments in calculated columns
+
+#### 2021.4
+Data Policy for row level security
+
+#### 2022.4
+1) Proper staring function (to capitalize first letter of all letter
+2) Image Role (If img is a col with url to appear it dynamically on visual)
+3) Replace data set on every sheet level
+4) Usage metrix on tableau server
+
+#### 2023.1
+1) Dyanmica Axis title
+2) User attribute
+3) Data Mapping accelator
